@@ -16,20 +16,6 @@ const BoxActivities = () => (
         </p>
       </div>
     </div>
-    ...
   </div>
 );
 export default BoxActivities;
-<div className="card" style="width: 18rem;">
-    <img src="..." className="card-img-top" alt="..." />
-    <div className="card-body">
-      <h5 className="card-title">Jet Ski</h5>
-      <p className="card-text">
-        Choisissez un jet ski simple ou double et faites le tour du paradis
-        polynésien avec un guide expérimenté
-      </p>
-      <a href="#" className="btn btn-primary">
-        Reserver
-      </a>
-    </div>
-  </div>
