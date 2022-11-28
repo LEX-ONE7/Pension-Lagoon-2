@@ -16,13 +16,6 @@ import { getDataFromFirebase } from '../database/getDataFromFirebase';
 export default function SliderAuto({ collection }) {
   const [data, setData] = React.useState([]);
 
-  const array = [
-    { title: 'je suis un titre' },
-    { title: 'je ne suis pas un titre' },
-    { title: 'je ne suis pas un titre' },
-    { title: 'je ne suis pas un titre' },
-  ];
-
   React.useEffect(() => {
     (async () => {
       // aller chercher les collections sur firebase
@@ -47,11 +40,14 @@ export default function SliderAuto({ collection }) {
       modules={[Autoplay, Pagination, Navigation]}
       className="mySwiper"
     >
-      <SwiperSlide>
-        {array.map((el, index) => (
-          <p style={{ display: 'block' }}>{index} ====</p>
-        ))}
-      </SwiperSlide>
+      {data.map((slide) => (
+        <SwiperSlide>
+          <img
+            src={slide.url}
+            style={{ height: '30rem', obbjectFit: 'cover' }}
+          />
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 }

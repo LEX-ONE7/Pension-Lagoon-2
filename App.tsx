@@ -8,7 +8,6 @@ export default function App() {
     <div>
       <Navbar />
       <SliderAuto collection="header-carrousel" />
-      <SliderAuto collection="layout-bungalows" />
 
       <h1>Hello StackBlitz!</h1>
       <p>Start editing to see some magic happen :)</p>
