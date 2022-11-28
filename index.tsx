@@ -14,7 +14,7 @@ const router = createBrowserRouter([
   { path: './', element: <App /> },
   { path: './bungalows', element: <Bungalows /> },
   { path: './activites', element: <Activites /> },
-  { path: './evenenments', element: <Evenements /> },
+  { path: './evenements', element: <Evenements /> },
 ]);
 root.render(
   <StrictMode>
