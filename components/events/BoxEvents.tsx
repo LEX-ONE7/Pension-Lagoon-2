@@ -13,6 +13,7 @@ const BoxEvents = () => (
           les étoiles, et une multitude de paysages féériques pour des
           cérémonies somptueuses ou intimes selon vos envies.
         </p>
+        
       </div>
       <div className="col-12 col-md-8 bg-info">
         <h4> Mariages </h4>
@@ -34,10 +35,11 @@ const BoxEvents = () => (
       <div className="col-12 col-md-8 bg-danger">
         <h3> Anniversaires</h3>
         <p>
-          La Polynésie est l’une des plus belles destinations au monde pour
-          fêter ce grand moment à deux, rien que tous les deux ! Nos offres
-          incluent de nombreux cadeaux et surprises qui vous laisseront un
-          souvenir impérissable.
+          Fini les salles de fête basiques ou les partys d’anniversaire
+          organisés à l’improviste à la maison… Cette année, vous avez décidé de
+          mettre le paquet et vous avez amplement raison ! Plusieurs idées
+          peuvent être considérées pour faire de votre fête d’anniversaire un
+          événement unique et inoubliable
         </p>
       </div>
     </div>
