@@ -38,21 +38,31 @@ const Navbar = () => {
               Évènements
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-              Autres
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-            >
-              Disabled
-            </a>
-          </li>
+          <a
+            className="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Autres
+          </a>
+          <ul
+            className="dropdown-menu"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a className="dropdown-item" href="#">
+                Nous Contacter
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#">
+                Avis Clients
+              </a>
+            </li>
+          </ul>
         </ul>
       </div>
     </div>
