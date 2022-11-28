@@ -5,6 +5,7 @@ const Bungalows = () => {
   return (
     <div>
       <Navbar />
+      <HeaderBungalows/>
       <BoxBungalow />
       <BoxChambre />
       <BoxRepas />

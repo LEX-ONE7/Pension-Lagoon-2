@@ -1,5 +1,5 @@
 import * as React from 'react';
-const BoxChambre () =>{
+const BoxChambre =() =>{
 
 }
 export default BoxChambre;

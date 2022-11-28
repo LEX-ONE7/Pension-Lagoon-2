@@ -5,6 +5,9 @@ const Activites = () => {
   return (
     <div>
       <Navbar />
+      <HeaderActivites />
+      <BoxMer />
+      <BoxTerre />
     </div>
   );
 };
