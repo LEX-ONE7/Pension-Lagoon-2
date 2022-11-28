@@ -1,3 +1,5 @@
 import * as React from 'react';
-const BoxWedding = () => {};
+const BoxWedding = () => {
+  
+};
 export default BoxWedding;
