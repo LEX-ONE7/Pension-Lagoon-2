@@ -1,5 +1,5 @@
 import * as React from 'react';
-const Navbar = () => {
+const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="container-fluid">
       <a className="navbar-brand" href="#">
@@ -66,6 +66,7 @@ const Navbar = () => {
         </ul>
       </div>
     </div>
-  </nav>;
-};
+  </nav>
+);
+
 export default Navbar;

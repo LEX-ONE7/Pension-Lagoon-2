@@ -1,4 +1,4 @@
 import * as React from 'react';
-const BoxMer = () => 
-};
+const BoxMer = () => (
+);
 export default BoxMer;
