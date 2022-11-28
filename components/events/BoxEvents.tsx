@@ -23,9 +23,21 @@ const BoxEvents = () => (
         </p>
       </div>
       <div className="col-12 col-md-8 bg-warning">
-        <h3> Anniversaires </h3>
+        <h3> Lune de Miel</h3>
         <p>
-          
+          La Polynésie est l’une des plus belles destinations au monde pour
+          fêter ce grand moment à deux, rien que tous les deux ! Nos offres
+          incluent de nombreux cadeaux et surprises qui vous laisseront un
+          souvenir impérissable.
+        </p>
+      </div>
+      <div className="col-12 col-md-8 bg-danger">
+        <h3> Anniversaires</h3>
+        <p>
+          La Polynésie est l’une des plus belles destinations au monde pour
+          fêter ce grand moment à deux, rien que tous les deux ! Nos offres
+          incluent de nombreux cadeaux et surprises qui vous laisseront un
+          souvenir impérissable.
         </p>
       </div>
     </div>
