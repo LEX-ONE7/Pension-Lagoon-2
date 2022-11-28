@@ -1,4 +1,3 @@
 import * as React from 'react';
-const BoxTerre = () => 
-();
+const BoxTerre = () => {};
 export default BoxTerre;
