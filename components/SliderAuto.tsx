@@ -11,8 +11,27 @@ import '../src/styles.css';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper';
+import { getDataFromFirebase } from '../database/getDataFromFirebase';
 
-export default function App() {
+export default function SliderAuto({ collection }) {
+  const [data, setData] = React.useState([]);
+
+  const array = [
+    { title: 'je suis un titre' },
+    { title: 'je ne suis pas un titre' },
+    { title: 'je ne suis pas un titre' },
+    { title: 'je ne suis pas un titre' },
+  ];
+
+  React.useEffect(() => {
+    (async () => {
+      // aller chercher les collections sur firebase
+      const response = await getDataFromFirebase(collection);
+
+      setData(response);
+    })();
+  }, []);
+
   return (
     <Swiper
       spaceBetween={30}
@@ -28,10 +47,11 @@ export default function App() {
       modules={[Autoplay, Pagination, Navigation]}
       className="mySwiper"
     >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+      <SwiperSlide>
+        {array.map((el, index) => (
+          <p style={{ display: 'block' }}>{index} ====</p>
+        ))}
+      </SwiperSlide>
     </Swiper>
   );
 }
