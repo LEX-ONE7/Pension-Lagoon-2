@@ -1,8 +1,8 @@
-const Evenements ()=>{
-  return(
+import * as React from 'react';
+const Evenements = () => {
+  return (
     <div>
-    <Navbar/>
+      <Navbar />
     </div>
-    
-  )
-}
+  );
+};
