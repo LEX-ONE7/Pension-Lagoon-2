@@ -1,11 +1,13 @@
 import * as React from 'react';
 import Navbar from '../components/Navbar';
+import BoxChambre from '../components/rooms/BoxChambre';
+import BoxRepas from '../components/rooms/BoxRepas';
+import BoxServices from '../components/rooms/BoxServices';
 
 const Bungalows = () => {
   return (
     <div>
       <Navbar />
-      <HeaderBungalows/>
       <BoxBungalow />
       <BoxChambre />
       <BoxRepas />
@@ -13,3 +15,4 @@ const Bungalows = () => {
     </div>
   );
 };
+export default Bungalows;

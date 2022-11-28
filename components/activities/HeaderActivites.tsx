@@ -1,4 +1,3 @@
 import * as React from 'react';
-const HeaderActivites = () => 
-};
+const HeaderActivites = () => {};
 export default HeaderActivites;

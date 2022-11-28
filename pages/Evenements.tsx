@@ -1,4 +1,8 @@
 import * as React from 'react';
+import BoxHappyBirthday from '../components/events/BoxHappyBirthday';
+import BoxHoneyMoon from '../components/events/BoxHoneyMoon';
+import BoxWedding from '../components/events/BoxWedding';
+import HeaderEvents from '../components/events/HeaderEvents';
 import Navbar from '../components/Navbar';
 
 const Evenements = () => {
@@ -12,3 +16,4 @@ const Evenements = () => {
     </div>
   );
 };
+export default Evenements;
