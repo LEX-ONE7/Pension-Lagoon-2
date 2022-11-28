@@ -8,13 +8,14 @@ const BoxActivities = () => (
         <div className="card-body">
           <h5 className="card-title"></h5>
           <p className="card-text">
-            
+            Choisissez un jet ski simple ou double et faites le tour du paradis
+            polynésien avec un guide expérimenté
           </p>
           <a href="#" className="btn btn-primary">
             Réserver
           </a>
         </div>
-        <div className="card-footer text-muted">Kayak</div>
+        <div className="card-footer text-muted">Jet Ski</div>
       </div>
     </div>
   </div>
