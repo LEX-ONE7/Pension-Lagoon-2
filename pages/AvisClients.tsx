@@ -8,3 +8,4 @@ const AvisClients = () => {
     </div>
   );
 };
+export default AvisClients;

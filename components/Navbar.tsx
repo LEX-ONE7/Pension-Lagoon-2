@@ -24,17 +24,17 @@ const Navbar = () => (
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/bungalows">
               Bungalows & Chambres
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/activites">
               Activités
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="/evenements">
               Évènements
             </a>
           </li>
@@ -53,12 +53,12 @@ const Navbar = () => (
             aria-labelledby="navbarDropdownMenuLink"
           >
             <li>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="/nousContacter">
                 Nous Contacter
               </a>
             </li>
             <li>
-              <a className="dropdown-item" href="#">
+              <a className="dropdown-item" href="/avisClients">
                 Avis Clients
               </a>
             </li>
