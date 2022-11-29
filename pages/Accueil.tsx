@@ -21,16 +21,11 @@ const Accueil = () => {
             </text>
           </svg>
 
-          <h2 className="fw-normal">Heading</h2>
+          <h2 className="fw-normal">Hébergement</h2>
+          <p>Ambiance « full lagon », optez pour l'un de nos Bungalows.</p>
           <p>
-            Situé au bord d'une plage de sable blanc du récif du Motu de Bora,
-            cet hôtel de luxe est uniquement accessible en bateau depuis
-            l'aéroport de Bora-Bora. Il se trouve à 8 km du sommet du mont
-            Otemanu. .
-          </p>
-          <p>
-            <a className="btn btn-secondary" href="#">
-              View details &raquo;
+            <a className="btn btn-secondary" href="/bungalows">
+              En Savoir Plus &raquo;
             </a>
           </p>
         </div>
@@ -52,14 +47,14 @@ const Accueil = () => {
             </text>
           </svg>
 
-          <h2 className="fw-normal">Heading</h2>
+          <h2 className="fw-normal">Restaurant Local</h2>
           <p>
-            Another exciting bit of representative placeholder content. This
-            time, we've moved on to the second column.
+            Des menus comprenant divers poissons frais, des spécialités
+            tahitiennes, des salades etc.
           </p>
           <p>
             <a className="btn btn-secondary" href="#">
-              View details &raquo;
+              En Savoir Plus &raquo;
             </a>
           </p>
         </div>
@@ -74,21 +69,24 @@ const Accueil = () => {
             preserveAspectRatio="xMidYMid slice"
             focusable="false"
           >
-            <title>Placeholder</title>
+            <title>
+              {' '}
+              <img src="https://mayottedecouverte.fr/wp-content/uploads/2018/05/saut-baleine-a-bosse-3-mayotte-decouverte.jpg" />
+            </title>
             <rect width="100%" height="100%" fill="#777" />
             <text x="50%" y="50%" fill="#777" dy=".3em">
               140x140
             </text>
           </svg>
 
-          <h2 className="fw-normal">Heading</h2>
+          <h2 className="fw-normal">Sortie Baleine</h2>
           <p>
-            And lastly this, the third column of representative placeholder
-            content.
+            Venez à la rencontre des baleines et de leurs baleineaux dans le
+            plus grand respect des animaux.
           </p>
           <p>
-            <a className="btn btn-secondary" href="#">
-              View details &raquo;
+            <a className="btn btn-secondary" href="/activites">
+              En Savoir Plus &raquo;
             </a>
           </p>
         </div>
