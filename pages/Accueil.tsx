@@ -100,12 +100,12 @@ const Accueil = () => {
             CHAMBRES ET BUNGALOWS.{' '}
             <span className="text-muted">It’ll blow your mind.</span>
           </h2>
-          <p className="lead d-flex">
-            AU COEUR DES JARDINS TROPICAUX OU LE LONG DES EAUX PAISIBLES DU
-            LAGON, NOS 10 CHAMBRES ET BUNGALOWS VOUS OFFRE CONFORT ET
-            AUTHENTICITE POLYNESIENNE.
+          <p className="lead d-flex text-center">
+            Au coeur des jardins tropicaux ou le long des eaux paisibles du
+            lagon, nos Chambres et Bungalows vous offre confort et authenticité
+            polynésienne.
             <br />
-            LUMINEUX ET SPACIEUX,CE SONT DE VERITABLES HAVRES DE DETENTE.
+            Lumineux et spacieux, ce sont de véritables havres de détente.
           </p>
         </div>
         <div className="col-md-6">
