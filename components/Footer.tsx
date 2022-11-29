@@ -7,7 +7,6 @@ const Footer = () => {
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h5 className="text-uppercase">Avis Clients</h5>
 
-            <div className="overflow-auto">...</div>
 
             <div
               className="div "
