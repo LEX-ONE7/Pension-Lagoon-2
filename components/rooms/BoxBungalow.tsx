@@ -6,17 +6,14 @@ const BoxBungalow = () => (
     <div className="row">
       <div className="col-12  bg-success">
         <h2>Bungalows & Chambres</h2>
-        <p></p>
         <p>
           Equipées d’un TV, d’un mini-bar, de WC et salle de bains ou douche. Un
           accès WIFI gratuit est accessible dans totues nos chambres et
           bungalows. Hotel ouvert 7j/7
         </p>
-        <img src="" />
       </div>
       <div className="col-12  bg-info ">
         <h3 className="fs-4">Bungalows</h3>
-        <SliderAuto collection="layout-bungalows" />
       </div>
       <div className="col-12  bg-warning">
         <h4 className="fs-4">Chambres</h4>
@@ -42,20 +39,20 @@ const BoxBungalow = () => (
           href="/"
           className="d-flex align-items-center text-dark text-decoration-none"
         >
-          <span className="fs-4">Jumbotron example</span>
+          <span className="fs-4">Bungalows & Chambres</span>
         </a>
       </header>
 
-      <div className="p-5 mb-4 bg-light rounded-3">
+      <div className="p-5 mb-4 bg-light rounded-5">
         <div className="container-fluid py-5">
-          <h1 className="display-5 fw-bold">Bungalows</h1>
+          <SliderAuto collection="layout-bungalows" />
+          <h2 className="display-5 fw-bold">Bungalows</h2>
           <p className="col-md-8 fs-4">
-            Using a series of utilities, you can create this jumbotron, just
-            like the one in previous versions of Bootstrap. Check out the
-            examples below for how you can remix and restyle it to your liking.
+            Les Bungalows Pilotis bénéficient d’une grande terrasse solarium
+            privée et d’un accès direct au lagon.
           </p>
-          <button className="btn btn-primary btn-lg" type="button">
-            Example button
+          <button className="btn btn-info btn-lg" type="button">
+            Réserver
           </button>
         </div>
       </div>
