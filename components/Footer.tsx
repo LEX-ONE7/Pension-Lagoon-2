@@ -38,9 +38,10 @@ const Footer = () => {
         className="text-center p-3"
         style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
       >
-        © 2023 Copyright:
+        © 2022 Copyright: Cet hôtel est la propriété de Beachcomber Lex Corp,
+        ©2022, LagoonPension.
         <a className="text-white" href="/">
-          PensionLagoon.com
+          est la propriété de Lex
         </a>
       </div>
     </div>
