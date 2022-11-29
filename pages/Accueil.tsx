@@ -21,8 +21,12 @@ const Accueil = () => {
             </text>
           </svg>
 
-          <h2 className="fw-normal">Hébergement</h2>
-          <p>Ambiance « full lagon », optez pour l'un de nos Bungalows.</p>
+          <h2 className="fw-normal">Séjour </h2>
+          <p>
+            Ambiance « full lagon », optez pour l'un de nos Bungalows sur
+            pilotis à fond de verre, permettant d’admirer la faune et la flore
+            pendant les soins.
+          </p>
           <p>
             <a className="btn btn-secondary" href="/bungalows">
               En Savoir Plus &raquo;
@@ -47,13 +51,13 @@ const Accueil = () => {
             </text>
           </svg>
 
-          <h2 className="fw-normal">Restaurant Local</h2>
+          <h2 className="fw-normal">Spécialités Locales</h2>
           <p>
             Des menus comprenant divers poissons frais, des spécialités
-            tahitiennes, des salades etc.
+            tahitiennes à base de produits frais locaux,.
           </p>
           <p>
-            <a className="btn btn-secondary" href="#">
+            <a className="btn btn-secondary" href="/bungalows">
               En Savoir Plus &raquo;
             </a>
           </p>
