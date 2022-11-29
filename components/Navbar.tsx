@@ -1,6 +1,6 @@
 import * as React from 'react';
 const Navbar = () => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg navbar-light bg-info">
     <div className="container-fluid">
       <a className="navbar-brand" href="#">
         Pension Lagoon
