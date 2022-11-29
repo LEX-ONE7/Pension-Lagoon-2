@@ -29,7 +29,7 @@ const Accueil = () => {
           </p>
           <p>
             <a className="btn btn-secondary" href="/bungalows">
-              En Savoir Plus &raquo;
+              En Savoir Plus 
             </a>
           </p>
         </div>
@@ -57,8 +57,8 @@ const Accueil = () => {
             tahitiennes à base de produits frais locaux.
           </p>
           <p>
-            <a className="btn btn-secondary" href="/bungalows">
-              En Savoir Plus &raquo;
+            <a className="btn btn-secondary mt-4" href="/bungalows">
+              En Savoir Plus 
             </a>
           </p>
         </div>
@@ -89,8 +89,8 @@ const Accueil = () => {
             plus grand respect des animaux.
           </p>
           <p>
-            <a className="btn btn-secondary" href="/activites">
-              En Savoir Plus &raquo;
+            <a className="btn btn-secondary mt-4" href="/activites">
+              En Savoir Plus 
             </a>
           </p>
         </div>

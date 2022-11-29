@@ -52,7 +52,7 @@ const BoxBungalow = () => (
         <div className="col-md-6">
           <div className="h-100 p-5 text-bg-dark rounded-3 text-center">
             <img src="https://www.yestahiti.fr/_client_files/infos_voyageurs/chaud-froid.jpg" />
-            <h2 className='mt-4 mb-4'>Chaud-Froid</h2>
+            <h2 className="mt-4 mb-4">Chaud-Froid</h2>
             <button className="btn btn-outline-light" type="button">
               Commander
             </button>
@@ -60,7 +60,7 @@ const BoxBungalow = () => (
         </div>
         <div className="col-md-6">
           <div className="h-100 p-5 bg-light border rounded-3">
-            <img src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/feet5t.jpg"
+            <img src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/feet5t.jpg" />
             <h2>Crudités</h2>
             <p>
               Or, keep it light and add a border for some added definition to
