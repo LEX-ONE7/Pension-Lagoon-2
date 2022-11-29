@@ -7,10 +7,7 @@ const BoxBungalow = () => (
       <div className="col-12 col-md-8 bg-success">
         <h2>Bungalows & Chambres</h2>
         <p>
-          Au coeur des jardins tropicaux ou le long des eaux paisibles du lagon,
-          nos 10 chambres et bungalows sur pilotis vous offre confort et
-          authenticité polynésienne. Lumineux et spacieux, ce sont de véritables
-          havres de détente.
+       
         </p>
         <p>
           Equipées d’un TV, d’un mini-bar, de WC et salle de bains ou douche. Un

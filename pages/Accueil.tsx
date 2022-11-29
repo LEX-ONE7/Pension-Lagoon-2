@@ -32,7 +32,6 @@ const Accueil = () => {
             </a>
           </p>
         </div>
-        // /.col-lg-4
         <div className="col-lg-4">
           <svg
             className="bd-placeholder-img rounded-circle"
@@ -62,7 +61,6 @@ const Accueil = () => {
             </a>
           </p>
         </div>
-        // /.col-lg-4
         <div className="col-lg-4">
           <svg
             className="bd-placeholder-img rounded-circle"
@@ -200,4 +198,3 @@ const Accueil = () => {
 
 export default Accueil;
 
-// ==================================================
