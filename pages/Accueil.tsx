@@ -21,7 +21,7 @@ const Accueil = () => {
             </text>
           </svg>
 
-          <h2 className="fw-normal">Séjour </h2>
+          <h2 className="fw-normal">Séjour Edenique</h2>
           <p>
             Ambiance « full lagon », optez pour l'un de nos Bungalows sur
             pilotis à fond de verre, permettant d’admirer la faune et la flore
