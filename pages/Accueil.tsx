@@ -54,7 +54,7 @@ const Accueil = () => {
           <h2 className="fw-normal">Spécialités Locales</h2>
           <p>
             Des menus comprenant divers poissons frais, des spécialités
-            tahitiennes à base de produits frais locaux,.
+            tahitiennes à base de produits frais locaux.
           </p>
           <p>
             <a className="btn btn-secondary" href="/bungalows">
