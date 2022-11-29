@@ -5,18 +5,11 @@ const BoxBungalow = () => (
   <div className="container-fluid ">
     <div className="row">
       <div className="col-12 ">
-        <h2>Bungalows & Chambres</h2>
+        <h2 className='mt-4 '>Bungalows & Chambres</h2>
       </div>
     </div>
     <div className="container py-4">
-      <header className="pb-3 mb-4 border-bottom">
-        <a
-          href="/"
-          className="d-flex align-items-center text-dark text-decoration-none"
-        >
-          <span className="fs-4">Bungalows & Chambres</span>
-        </a>
-      </header>
+      
 
       <div className="p-5 mb-4 bg-white rounded-5">
         <div className="container-fluid py-5">
