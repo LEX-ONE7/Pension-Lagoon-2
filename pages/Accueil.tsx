@@ -100,15 +100,16 @@ const Accueil = () => {
             CHAMBRES ET BUNGALOWS.{' '}
             <span className="text-muted">It’ll blow your mind.</span>
           </h2>
-          <p className="lead">
-            Au coeur des jardins tropicaux ou le long des eaux paisibles du
-            lagon, nos 10 chambres et bungalows sur pilotis vous offre confort
-            et authenticité polynésienne. Lumineux et spacieux, ce sont de
-            véritables havres de détente.
+          <p className="lead d-flex">
+            AU COEUR DES JARDINS TROPICAUX OU LE LONG DES EAUX PAISIBLES DU
+            LAGON, NOS 10 CHAMBRES ET BUNGALOWS VOUS OFFRE CONFORT ET
+            AUTHENTICITE POLYNESIENNE.
+            <br />
+            LUMINEUX ET SPACIEUX,CE SONT DE VERITABLES HAVRES DE DETENTE.
           </p>
         </div>
         <div className="col-md-5">
-          <img src="https://www.tropicalement-votre.com/produits/1030/doc/chambre-vue-lagon.jpg" />{' '}
+          <img src="https://www.tropicalement-votre.com/produits/1030/doc/chambre-vue-lagon_500x500.jpg" />{' '}
         </div>
       </div>
 
@@ -120,27 +121,12 @@ const Accueil = () => {
             ACTIVITES. <span className="text-muted">See for yourself.</span>
           </h2>
           <p className="lead">
-          SUBLIMEZ VOTRE EXPÉRIENCE À LAGOON LODGE
-Notre centre de plongée sous-marine vous fait découvrir un monde extraordinaire.
+            SUBLIMEZ VOTRE EXPÉRIENCE À LAGOON LODGE Notre centre de plongée
+            sous-marine vous fait découvrir un monde extraordinaire.
           </p>
         </div>
         <div className="col-md-5 order-md-1">
-          <svg
-            className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-            width="500"
-            height="500"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" />
-            <text x="50%" y="50%" fill="#aaa" dy=".3em">
-              500x500
-            </text>
-          </svg>
+          <img src="https://d2xf5gjipzd8cd.cloudfront.net/available/476881150/476881150_500x500.jpg " />{' '}
         </div>
       </div>
 
@@ -152,10 +138,10 @@ Notre centre de plongée sous-marine vous fait découvrir un monde extraordinair
             EVENEMENTS. <span className="text-muted">Checkmate.</span>
           </h2>
           <p className="lead">
-            And yes, this is the last block of representative placeholder
-            content. Again, not really intended to be actually read, simply here
-            to give you a better view of what this would look like with some
-            actual content. Your content.
+            Avec des vues éblouissantes, un équipement à la pointe de la
+            technologie, un excellent soutien de notre équipe d'événements et un
+            superbe emplacement dans le Pacifique Sud, soyez sûr d'un évènement
+            réussi !
           </p>
         </div>
         <div className="col-md-5">

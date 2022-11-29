@@ -47,9 +47,9 @@ const Footer = () => {
         style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
       >
         © 2022 Copyright: Cet hôtel est la propriété de Lex Company
-        LagoonPension est la <br />
+        <br />
         <a className="text-white" href="/">
-          propriété de Lex Tau
+          Lagoon Lodge est la propriété de Lex Tau
         </a>
       </div>
     </div>
