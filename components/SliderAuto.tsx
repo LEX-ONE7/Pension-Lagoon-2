@@ -44,7 +44,11 @@ export default function SliderAuto({ collection }) {
         <SwiperSlide>
           <img
             src={slide.url}
-            style={{ height: '30rem', obbjectFit: 'cover' }}
+            style={{
+              height: '30rem',
+              obbjectFit: 'cover',
+              objectPosition: 'top',
+            }}
           />
         </SwiperSlide>
       ))}
