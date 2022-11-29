@@ -46,10 +46,10 @@ const Footer = () => {
         className="text-center p-3"
         style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
       >
-        © 2022 Copyright: Cet hôtel est la propriété de Lex Corp, ©2022,
-        LagoonPension est la
+        © 2022 Copyright: Cet hôtel est la propriété de Lex Company
+        LagoonPension est la <br />
         <a className="text-white" href="/">
-          propriété de Lex
+          propriété de Lex Tau
         </a>
       </div>
     </div>
