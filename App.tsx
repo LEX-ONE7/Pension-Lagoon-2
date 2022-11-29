@@ -2,6 +2,7 @@ import * as React from 'react';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import SliderAuto from './components/SliderAuto';
+import Accueil from './pages/Accueil';
 import './style.css';
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
     <div>
       <Navbar />
       <SliderAuto collection="header-carrousel" />
+      <Accueil />
       <Footer />
     </div>
   );
