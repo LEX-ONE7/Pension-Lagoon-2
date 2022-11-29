@@ -5,16 +5,14 @@ const BoxBungalow = () => (
   <div className="container-fluid ">
     <div className="row">
       <div className="col-12 ">
-        <h2 className='mt-4 '>Bungalows & Chambres</h2>
+        <h2 className="mt-4 ">Bungalows & Chambres</h2>
       </div>
     </div>
     <div className="container py-4">
-      
-
       <div className="p-5 mb-4 bg-white rounded-5">
         <div className="container-fluid py-5">
           <h2 className="display-5 fw-bold">Bungalows</h2>
-          <p className="col-md-8 fs-4">
+          <p className="col-md-12 fs-4">
             Les Bungalows Pilotis bénéficient d’une grande terrasse solarium
             privée et d’un accès direct au lagon.
           </p>
@@ -30,14 +28,14 @@ const BoxBungalow = () => (
       </div>
       <div className="p-5 mb-4 bg-light rounded-5">
         <div className="container-fluid py-2">
-          <SliderAuto collection="Chambres" />
           <h2 className="display-5 fw-bold">Chambres</h2>
           <p className="col-md-8 fs-4">
             Quelles que soient leur catégorie et leur situation, toutes nos
             chambres vous offrira un concentré de confort.
           </p>
+          <SliderAuto collection="Chambres" />
           <button
-            className="btn btn-info btn-lg rounded-3 btn-outline-light"
+            className="btn btn-info btn-lg rounded-3 btn-outline-light mt-4"
             type="button"
           >
             Réserver
@@ -48,6 +46,7 @@ const BoxBungalow = () => (
       <div className="row align-items-md-stretch">
         <div className="col-md-6">
           <div className="h-100 p-5 text-bg-dark rounded-3">
+            <img src ="https://www.yestahiti.fr/_client_files/infos_voyageurs/chaud-froid.jpg"/>
             <h2>Change the background</h2>
             <p>
               <p>
@@ -58,7 +57,7 @@ const BoxBungalow = () => (
               .
             </p>
             <button className="btn btn-outline-light" type="button">
-              Example button
+              Commander
             </button>
           </div>
         </div>
@@ -72,7 +71,7 @@ const BoxBungalow = () => (
               both column's content for equal-height.
             </p>
             <button className="btn btn-outline-secondary" type="button">
-              Example button
+              Commander
             </button>
           </div>
         </div>
