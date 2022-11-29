@@ -8,18 +8,36 @@ const Footer = () => {
             <h5 className="text-uppercase">Avis Clients</h5>
 
             <div className="overflow-auto">...</div>
-            <div className="overflow-scroll">
-              Petit aperçu de la culture polynésienne avec le village et le
-              traditionnel "four Tahitien". Le repas est excellent ainsi que le
-              spectacle. Visité en juin 2014 nono1664{' '}
-            </div>
-            <div className="overflow-scroll">
-              Des animations sont prévus pour faire passer le temps entre les
-              plats. Enfin le spectacle, où la rien à dire, il faut vraiment le
-              voir!!! En résumé, le spectacle est vraiment à faire!!!! Visité en
-              juillet 2014 ggzergzezethzethzg e ngjznegj jerzg iezjrg ij oize
-              ozer okerzo jozjrg iezrgj ze jjzer j oreg ijzlkr jgzer nzge kn
-              zknrz lk kllzre rze rze kikrejjgikkjjh rhe e jzt hjjthz hjzeg
+
+            <div
+              className="div "
+              style={{ height: '150px', overflowY: 'scroll' }}
+            >
+              <div>
+                Petit aperçu de la culture polynésienne avec le village et le
+                traditionnel "four Tahitien". Le repas est excellent ainsi que
+                le spectacle. Visité en juin 2014 nono1664{' '}
+              </div>
+              <hr />
+              <div>
+                Des animations sont prévus pour faire passer le temps entre les
+                plats. Enfin le spectacle, où la rien à dire, il faut vraiment
+                le voir!!! En résumé, le spectacle est vraiment à faire!!!!
+                Visité en juillet 2014 ggzergzezethzethzg e ngjznegj jerzg
+                iezjrg ij oize ozer okerzo jozjrg iezrgj ze jjzer j oreg ijzlkr
+                jgzer nzge kn zknrz lk kllzre rze rze kikrejjgikkjjh rhe e jzt
+                hjjthz hjzeg
+              </div>
+              <hr />
+              <div>
+                Des animations sont prévus pour faire passer le temps entre les
+                plats. Enfin le spectacle, où la rien à dire, il faut vraiment
+                le voir!!! En résumé, le spectacle est vraiment à faire!!!!
+                Visité en juillet 2014 ggzergzezethzethzg e ngjznegj jerzg
+                iezjrg ij oize ozer okerzo jozjrg iezrgj ze jjzer j oreg ijzlkr
+                jgzer nzge kn zknrz lk kllzre rze rze kikrejjgikkjjh rhe e jzt
+                hjjthz hjzeg
+              </div>
             </div>
           </div>
 
