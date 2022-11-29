@@ -4,7 +4,7 @@ import SliderAuto from '../SliderAuto';
 const BoxBungalow = () => (
   <div className="container-fluid ">
     <div className="row">
-      <div className="col-12 col-md-8 bg-success">
+      <div className="col-12  bg-success">
         <h2>Bungalows & Chambres</h2>
         <p>
        
@@ -16,22 +16,22 @@ const BoxBungalow = () => (
         </p>
         <img src="" />
       </div>
-      <div className="col-12 col-md-8 bg-info ">
+      <div className="col-12  bg-info ">
         <h3>Bungalows</h3>
         <SliderAuto collection="layout-bungalows" />
       </div>
-      <div className="col-12 col-md-8 bg-warning">
+      <div className="col-12  bg-warning">
         <h4>Chambres</h4>
         <SliderAuto collection="Chambres" />
       </div>
-      <div className="col-12 col-md-8 bg-warning">
+      <div className="col-12  bg-warning">
         <h5>Repas</h5>
         <p>
-          Petit Déjeuner : 1000 fr/Jour Demi-Pension : 2500 fr/Jour Pension
+          Petit Déjeuner : 1000 fr/Jour <br/>Demi-Pension : 2500 fr/Jour <br/>Pension
           Complète: 4000 fr/Jour{' '}
         </p>
       </div>
-      <div className="col-12 col-md-8 bg-warning">
+      <div className="col-12  bg-warning">
         <h6>Autres</h6>
 
         <p>Garde Animaux : 2500 fr</p>
