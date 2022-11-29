@@ -17,6 +17,11 @@ const BoxBungalow = () => (
             privée et d’un accès direct au lagon.
           </p>
           <SliderAuto collection="layout-bungalows" />
+          <p>
+            Equipées d’un TV, d’un mini-bar, de WC et salle de bains ou douche.
+            Un accès WIFI gratuit est accessible dans totues nos chambres et
+            bungalows. Hotel ouvert 7j/7
+          </p>
 
           <button
             className="btn btn-info btn-lg rounded-3 btn-outline-light mt-4"
@@ -28,7 +33,7 @@ const BoxBungalow = () => (
       </div>
       <div className="p-5 mb-4 bg-light rounded-5">
         <div className="container-fluid py-2">
-          <h2 className="display-5 fw-bold">Chambres</h2>
+          <h2 className="display-5 fw-bold text-center">Chambres</h2>
           <p className="col-md-8 fs-4">
             Quelles que soient leur catégorie et leur situation, toutes nos
             chambres vous offrira un concentré de confort.
@@ -45,17 +50,9 @@ const BoxBungalow = () => (
 
       <div className="row align-items-md-stretch">
         <div className="col-md-6">
-          <div className="h-100 p-5 text-bg-dark rounded-3">
-            <img src ="https://www.yestahiti.fr/_client_files/infos_voyageurs/chaud-froid.jpg"/>
-            <h2>Change the background</h2>
-            <p>
-              <p>
-                Equipées d’un TV, d’un mini-bar, de WC et salle de bains ou
-                douche. Un accès WIFI gratuit est accessible dans totues nos
-                chambres et bungalows. Hotel ouvert 7j/7
-              </p>
-              .
-            </p>
+          <div className="h-100 p-5 text-bg-dark rounded-3 text-center">
+            <img src="https://www.yestahiti.fr/_client_files/infos_voyageurs/chaud-froid.jpg" />
+            <h2 className='mt-4 mb-4'>Chaud-Froid</h2>
             <button className="btn btn-outline-light" type="button">
               Commander
             </button>
@@ -63,7 +60,8 @@ const BoxBungalow = () => (
         </div>
         <div className="col-md-6">
           <div className="h-100 p-5 bg-light border rounded-3">
-            <h2>Add borders</h2>
+            <img src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/feet5t.jpg"
+            <h2>Crudités</h2>
             <p>
               Or, keep it light and add a border for some added definition to
               the boundaries of your content. Be sure to look under the hood at
