@@ -23,8 +23,10 @@ const Accueil = () => {
 
           <h2 className="fw-normal">Heading</h2>
           <p>
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
+            Situé au bord d'une plage de sable blanc du récif du Motu de Bora,
+            cet hôtel de luxe est uniquement accessible en bateau depuis
+            l'aéroport de Bora-Bora. Il se trouve à 8 km du sommet du mont
+            Otemanu. .
           </p>
           <p>
             <a className="btn btn-secondary" href="#">
@@ -95,14 +97,17 @@ const Accueil = () => {
       <hr className="featurette-divider" />
 
       <div className="row featurette">
-        <div className="col-md-6 d-flex flex-column justify-content-center ">
-          <h2 className="featurette-heading fw-normal lh-1">
-            CHAMBRES ET BUNGALOWS.{' '}
-            <span className="text-muted">It’ll blow your mind.</span>
+        <div className="col-md-6 d-flex flex-column justify-content-center  ">
+          <h2 className="featurette-heading fw-normal text-info">
+            CHAMBRES ET BUNGALOWS.
+            <hr className="text-info" />
+            It’ll blow your mind.
           </h2>
+
           <p className="lead d-flex text-center">
             Au coeur des jardins tropicaux ou le long des eaux paisibles du
-            lagon, nos Chambres et Bungalows vous offre confort et authenticité
+            lagon, <br />
+            nos chambres et Bungalows vous offre confort et authenticité
             polynésienne.
             <br />
             Lumineux et spacieux, ce sont de véritables havres de détente.
@@ -121,12 +126,13 @@ const Accueil = () => {
 
       <div className="row featurette">
         <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
-          <h2 className="featurette-heading fw-normal lh-1">
-            ACTIVITES. <span className="text-muted">See for yourself.</span>
+          <h2 className="featurette-heading fw-normal lh-1 text-info">
+            ACTIVITES. <hr className="text-info" />
+            Sublimez votre expérience!
           </h2>
           <p className="lead d-flex">
-            SUBLIMEZ VOTRE EXPÉRIENCE À LAGOON LODGE Notre centre de plongée
-            sous-marine vous fait découvrir un monde extraordinaire.
+            Notre centre de plongée sous-marine vous fait découvrir un monde
+            extraordinaire.
           </p>
         </div>
         <div className="col-md-6 order-md-1">
@@ -141,9 +147,10 @@ const Accueil = () => {
       <hr className="featurette-divider" />
 
       <div className="row featurette pb-5">
-        <div className="col-md-6 d-flex flex-column justify-content-center ">
-          <h2 className="featurette-heading fw-normal lh-1">
-            EVENEMENTS. <span className="text-muted">Checkmate.</span>
+        <div className="col-md-6 d-flex flex-column justify-content-center  ">
+          <h2 className="featurette-heading fw-normal lh-1 text-info">
+            EVENEMENTS. <hr className="text-info" />
+            Vivez une expérience inoubliable!
           </h2>
           <p className="lead ">
             Avec des vues éblouissantes, un équipement à la pointe de la
