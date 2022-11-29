@@ -4,33 +4,8 @@ import SliderAuto from '../SliderAuto';
 const BoxBungalow = () => (
   <div className="container-fluid ">
     <div className="row">
-      <div className="col-12  bg-success">
+      <div className="col-12 ">
         <h2>Bungalows & Chambres</h2>
-        <p>
-          Equipées d’un TV, d’un mini-bar, de WC et salle de bains ou douche. Un
-          accès WIFI gratuit est accessible dans totues nos chambres et
-          bungalows. Hotel ouvert 7j/7
-        </p>
-      </div>
-      <div className="col-12  bg-info ">
-        <h3 className="fs-4">Bungalows</h3>
-      </div>
-      <div className="col-12  bg-warning">
-        <h4 className="fs-4">Chambres</h4>
-        <SliderAuto collection="Chambres" />
-      </div>
-      <div className="col-12  bg-warning">
-        <h5>Repas</h5>
-        <p>
-          Petit Déjeuner : 1000 fr/Jour <br />
-          Demi-Pension : 2500 fr/Jour <br />
-          Pension Complète: 4000 fr/Jour{' '}
-        </p>
-      </div>
-      <div className="col-12  bg-warning">
-        <h6>Autres</h6>
-
-        <p>Garde Animaux : 2500 fr</p>
       </div>
     </div>
     <div className="container py-4">
@@ -43,15 +18,35 @@ const BoxBungalow = () => (
         </a>
       </header>
 
-      <div className="p-5 mb-4 bg-light rounded-5">
+      <div className="p-5 mb-4 bg-white rounded-5">
         <div className="container-fluid py-5">
-          <SliderAuto collection="layout-bungalows" />
           <h2 className="display-5 fw-bold">Bungalows</h2>
           <p className="col-md-8 fs-4">
             Les Bungalows Pilotis bénéficient d’une grande terrasse solarium
             privée et d’un accès direct au lagon.
           </p>
-          <button className="btn btn-info btn-lg" type="button">
+          <SliderAuto collection="layout-bungalows" />
+
+          <button
+            className="btn btn-info btn-lg rounded-3 btn-outline-light mt-4"
+            type="button"
+          >
+            Réserver
+          </button>
+        </div>
+      </div>
+      <div className="p-5 mb-4 bg-light rounded-5">
+        <div className="container-fluid py-2">
+          <SliderAuto collection="Chambres" />
+          <h2 className="display-5 fw-bold">Chambres</h2>
+          <p className="col-md-8 fs-4">
+            Quelles que soient leur catégorie et leur situation, toutes nos
+            chambres vous offrira un concentré de confort.
+          </p>
+          <button
+            className="btn btn-info btn-lg rounded-3 btn-outline-light"
+            type="button"
+          >
             Réserver
           </button>
         </div>
@@ -62,9 +57,12 @@ const BoxBungalow = () => (
           <div className="h-100 p-5 text-bg-dark rounded-3">
             <h2>Change the background</h2>
             <p>
-              Swap the background-color utility and add a `.text-*` color
-              utility to mix up the jumbotron look. Then, mix and match with
-              additional component themes and more.
+              <p>
+                Equipées d’un TV, d’un mini-bar, de WC et salle de bains ou
+                douche. Un accès WIFI gratuit est accessible dans totues nos
+                chambres et bungalows. Hotel ouvert 7j/7
+              </p>
+              .
             </p>
             <button className="btn btn-outline-light" type="button">
               Example button
@@ -83,6 +81,25 @@ const BoxBungalow = () => (
             <button className="btn btn-outline-secondary" type="button">
               Example button
             </button>
+          </div>
+        </div>
+      </div>
+      <div className="p-5 mb-4 bg-light rounded-5">
+        <div className="container-fluid py-2">
+          <SliderAuto collection="Chambres" />
+          <h2 className="display-5 fw-bold">Repas</h2>
+          <p className="col-md-8 fs-4">
+            Petit Déjeuner : 1000 fr/Jour <br />
+            Demi-Pension : 2500 fr/Jour <br />
+            Pension Complète: 4000 fr/Jour{' '}
+          </p>
+          <button className="btn btn-info btn-lg rounded-3" type="button">
+            Réserver
+          </button>
+          <div className="col-12  bg-warning">
+            <h6>Autres</h6>
+
+            <p>Garde Animaux : 2500 fr</p>
           </div>
         </div>
       </div>
