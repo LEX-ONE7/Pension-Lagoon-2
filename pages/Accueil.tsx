@@ -126,7 +126,8 @@ const Accueil =() =>{
       </div>
     </div>
 
-    <hr className="featurette-divider">);
+    <hr className="featurette-divider">
+      );
     };
 
     export default Accueil;
