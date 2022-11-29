@@ -101,14 +101,13 @@ const Accueil = () => {
           <h2 className="featurette-heading fw-normal text-info">
             CHAMBRES ET BUNGALOWS.
             <hr className="text-info" />
-            It’ll blow your mind.
+            Offrez vous un séjour de rêve !
           </h2>
 
-          <p className="lead d-flex text-center">
-            Au coeur des jardins tropicaux ou le long des eaux paisibles du
-            lagon, <br />
-            nos chambres et Bungalows vous offre confort et authenticité
-            polynésienne.
+          <p className="lead">
+            Le long des eaux paisibles du lagon ou au coeur des jardins
+            tropicaux nos chambres et Bungalows vous offre confort et
+            authenticité polynésienne.
             <br />
             Lumineux et spacieux, ce sont de véritables havres de détente.
           </p>
@@ -128,11 +127,14 @@ const Accueil = () => {
         <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
           <h2 className="featurette-heading fw-normal lh-1 text-info">
             ACTIVITES. <hr className="text-info" />
-            Sublimez votre expérience!
+            Sublimez votre expérience !
           </h2>
-          <p className="lead d-flex">
-            Notre centre de plongée sous-marine vous fait découvrir un monde
-            extraordinaire.
+          <p className="lead ">
+            Entre lagon bleu turquoise et vallées verdoyantes, Tahiti regorge de
+            paysages à couper le souffle qui ne demandent qu’à être découvert
+            lors de votre séjour.
+            <br /> En mer ou sur terre, Lagoon Lodge saura répondre à vos
+            attentes.
           </p>
         </div>
         <div className="col-md-6 order-md-1">
@@ -150,7 +152,7 @@ const Accueil = () => {
         <div className="col-md-6 d-flex flex-column justify-content-center  ">
           <h2 className="featurette-heading fw-normal lh-1 text-info">
             EVENEMENTS. <hr className="text-info" />
-            Vivez une expérience inoubliable!
+            Vivez une expérience inoubliable !
           </h2>
           <p className="lead ">
             Avec des vues éblouissantes, un équipement à la pointe de la
