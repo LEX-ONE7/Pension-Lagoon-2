@@ -11,8 +11,8 @@ const BoxBungalow = () => (
     <div className="container py-4">
       <div className="p-5 mb-4 text-bg-info rounded-5">
         <div className="container-fluid py-5">
-          <h2 className="display-6 fw-bold">Bungalows</h2>
-          <p className="col-md-12 fs-4">
+          <h2 className="display-6 fw-bold ">Bungalows</h2>
+          <p className="col-md-12 fs-4 text-white">
             Les Bungalows Pilotis bénéficient d’une grande terrasse solarium
             privée et d’un accès direct au lagon.
           </p>

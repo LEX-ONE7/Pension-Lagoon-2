@@ -53,7 +53,7 @@ const Footer = () => {
 
               <li>
                 <a href="#!" className="text-white">
-                  Abonnez vous a notre newsletter
+                  Abonnez vous à notre newsletter
                 </a>
                 <div className="d-flex flex-column flex-sm-row w-100 gap-2 mt-4">
                   <label for="newsletter1" className="visually-hidden">

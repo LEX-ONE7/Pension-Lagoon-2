@@ -121,6 +121,7 @@ const Accueil = () => {
           <h2 className="featurette-heading fw-normal lh-1 text-info">
             EVENEMENTS. <hr className="text-info" />
             Vivez une expérience inoubliable !
+
           </h2>
           <p className="lead ">
             Avec des vues éblouissantes,un excellent soutien de notre équipe d'événements et un

@@ -2,7 +2,7 @@ import * as React from 'react';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
-const AvisClients = () => {
+const Contacts = () => {
   return (
     <div>
       <Navbar />
@@ -11,4 +11,4 @@ const AvisClients = () => {
     </div>
   );
 };
-export default AvisClients;
+export default Contacts;
