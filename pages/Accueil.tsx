@@ -17,11 +17,9 @@ const Accueil = () => {
             pilotis à fond de verre, permettant d’admirer la faune et la flore
             pendant les soins.
           </p>
-          <p>
             <a className="btn btn-info text-white " href="/bungalows">
               En Savoir Plus
             </a>
-          </p>
         </div>
         <div className="col-lg-4 p-4 d-flex flex-column align-items-center text-center">
           <img
