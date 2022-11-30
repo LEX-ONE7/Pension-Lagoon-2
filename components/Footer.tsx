@@ -1,7 +1,7 @@
 import * as React from 'react';
 const Footer = () => {
   return (
-    <div className="bg-info text-white text-center text-lg-start">
+    <div className="bg-secondary text-white text-center text-lg-start">
       <div className="container p-4">
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
@@ -65,7 +65,7 @@ const Footer = () => {
                     className="form-control"
                     placeholder="Adresse mail"
                   />
-                  <button className="btn btn-primary" type="button">
+                  <button className="btn btn-info" type="button">
                     Souscrire
                   </button>
                 </div>
