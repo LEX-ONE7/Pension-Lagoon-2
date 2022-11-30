@@ -70,6 +70,7 @@ const Accueil = () => {
             CHAMBRES ET BUNGALOWS.
             <hr className="text-info" />
             Offrez vous un séjour de rêve !
+            <hr className="text-info" />
           </h2>
 
           <p className="lead">
@@ -96,6 +97,7 @@ const Accueil = () => {
           <h2 className="featurette-heading fw-normal lh-1 text-info">
             ACTIVITES. <hr className="text-info" />
             Sublimez votre expérience !
+            <hr className="text-info" />
           </h2>
           <p className="lead ">
             Entre lagon bleu turquoise et vallées verdoyantes, Tahiti regorge de
@@ -121,12 +123,12 @@ const Accueil = () => {
           <h2 className="featurette-heading fw-normal lh-1 text-info">
             EVENEMENTS. <hr className="text-info" />
             Vivez une expérience inoubliable !
-
+            <hr className="text-info" />
           </h2>
           <p className="lead ">
-            Avec des vues éblouissantes,un excellent soutien de notre équipe d'événements et un
-            superbe emplacement dans le Pacifique Sud, soyez sûr d'un évènement
-            réussi !
+            Avec des vues éblouissantes,un excellent soutien de notre équipe
+            d'événements et un superbe emplacement dans le Pacifique Sud, soyez
+            sûr d'un évènement réussi !
           </p>
         </div>
         <div className="col-md-6">
