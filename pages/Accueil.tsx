@@ -66,8 +66,10 @@ const Accueil = () => {
 
       <div className="row featurette">
         <div className="col-md-6 d-flex flex-column  justify-content-center ">
-          <h2 className="featurette-heading fw-normal text-secondary ">
-            CHAMBRES ET BUNGALOWS
+          <h2 className="featurette-heading fw-normal  ">
+            <a className="text-secondary " href="/bungalows">
+              CHAMBRES ET BUNGALOWS
+            </a>
             <hr className="text-primary " />
             <p className="text-info">Offrez vous un séjour de rêve !</p>
             <hr className="text-primary" />
