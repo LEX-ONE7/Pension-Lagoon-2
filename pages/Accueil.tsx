@@ -18,7 +18,7 @@ const Accueil = () => {
             pendant les soins.
           </p>
           <p>
-            <a className="btn btn-info" href="/bungalows">
+            <a className="btn btn-info text-white " href="/bungalows">
               En Savoir Plus
             </a>
           </p>
@@ -36,7 +36,7 @@ const Accueil = () => {
             tahitiennes à base de produits frais locaux.
           </p>
           <p>
-            <a className="btn btn-info mt-4" href="/bungalows">
+            <a className="btn btn-info mt-4 text-white" href="/bungalows">
               En Savoir Plus
             </a>
           </p>
@@ -49,13 +49,13 @@ const Accueil = () => {
             className="rounded-circle"
           />
 
-          <h2 className="fw-normal mt-4">Sortie Baleine</h2>
+          <h2 className="fw-normal mt-4 ">Sortie Baleine</h2>
           <p>
             Venez à la rencontre des baleines et de leurs baleineaux dans le
             plus grand respect des animaux.
           </p>
           <p>
-            <a className="btn btn-info mt-4" href="/activites">
+            <a className="btn btn-info mt-4 text-white" href="/activites">
               En Savoir Plus
             </a>
           </p>
@@ -65,12 +65,12 @@ const Accueil = () => {
       <hr className="featurette-divider" />
 
       <div className="row featurette">
-        <div className="col-md-6 d-flex flex-column justify-content-center  ">
-          <h2 className="featurette-heading fw-normal text-info">
+        <div className="col-md-6 d-flex flex-column  justify-content-center ">
+          <h2 className="featurette-heading fw-normal text-secondary ">
             CHAMBRES ET BUNGALOWS.
-            <hr className="text-info" />
-            Offrez vous un séjour de rêve !
-            <hr className="text-info" />
+            <hr className="text-primary " />
+            <p className="text-info">Offrez vous un séjour de rêve !</p>
+            <hr className="text-primary" />
           </h2>
 
           <p className="lead">
@@ -94,10 +94,10 @@ const Accueil = () => {
 
       <div className="row featurette">
         <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
-          <h2 className="featurette-heading fw-normal lh-1 text-info">
+          <h2 className="featurette-heading fw-normal lh-1 text-secondary">
             ACTIVITES. <hr className="text-info" />
-            Sublimez votre expérience !
-            <hr className="text-info" />
+            <p className="text-primary"> Sublimez votre expérience !</p>
+            <hr className="text-primary" />
           </h2>
           <p className="lead ">
             Entre lagon bleu turquoise et vallées verdoyantes, Tahiti regorge de
@@ -120,10 +120,10 @@ const Accueil = () => {
 
       <div className="row featurette pb-5">
         <div className="col-md-6 d-flex flex-column justify-content-center  ">
-          <h2 className="featurette-heading fw-normal lh-1 text-info">
-            EVENEMENTS. <hr className="text-info" />
-            Vivez une expérience inoubliable !
-            <hr className="text-info" />
+          <h2 className="featurette-heading fw-normal lh-1 text-secondary">
+            EVENEMENTS. <hr className="text-primary" />
+            <p className="text-info">Vivez une expérience inoubliable !</p>
+            <hr className="text-primary" />
           </h2>
           <p className="lead ">
             Avec des vues éblouissantes,un excellent soutien de notre équipe
