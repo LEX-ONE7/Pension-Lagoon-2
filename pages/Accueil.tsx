@@ -4,22 +4,12 @@ const Accueil = () => {
     <div className="container marketing">
       <div className="row">
         <div className="col-lg-4 p-4 d-flex flex-column align-items-center text-center">
-          <svg
-            className="bd-placeholder-img rounded-circle"
+          <img
             width="140"
             height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
+            src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/feet5t.jpg"
+            className="rounded-circle"
+          />
 
           <h2 className="fw-normal">Séjour Edenique</h2>
           <p>
@@ -29,28 +19,17 @@ const Accueil = () => {
           </p>
           <p>
             <a className="btn btn-secondary" href="/bungalows">
-              En Savoir Plus 
+              En Savoir Plus
             </a>
           </p>
         </div>
         <div className="col-lg-4 p-4 d-flex flex-column align-items-center text-center">
-          <svg
-            className="bd-placeholder-img rounded-circle"
+          <img
             width="140"
             height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
-
+            src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/feet5t.jpg"
+            className="rounded-circle"
+          />
           <h2 className="fw-normal">Spécialités Locales</h2>
           <p>
             Des menus comprenant divers poissons frais, des spécialités
@@ -58,30 +37,17 @@ const Accueil = () => {
           </p>
           <p>
             <a className="btn btn-secondary mt-4" href="/bungalows">
-              En Savoir Plus 
+              En Savoir Plus
             </a>
           </p>
         </div>
         <div className="col-lg-4 p-4 d-flex flex-column align-items-center text-center">
-          <svg
-            className="bd-placeholder-img rounded-circle"
+          <img
             width="140"
             height="140"
-            xmlns="http://www.w3.org/2000/svg"
-            role="img"
-            aria-label="Placeholder: 140x140"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <title>
-              {' '}
-              <img src="https://mayottedecouverte.fr/wp-content/uploads/2018/05/saut-baleine-a-bosse-3-mayotte-decouverte.jpg" />
-            </title>
-            <rect width="100%" height="100%" fill="#777" />
-            <text x="50%" y="50%" fill="#777" dy=".3em">
-              140x140
-            </text>
-          </svg>
+            src="https://mayottedecouverte.fr/wp-content/uploads/2018/05/saut-baleine-a-bosse-3-mayotte-decouverte.jpg"
+            className="rounded-circle"
+          />
 
           <h2 className="fw-normal">Sortie Baleine</h2>
           <p>
@@ -90,7 +56,7 @@ const Accueil = () => {
           </p>
           <p>
             <a className="btn btn-secondary mt-4" href="/activites">
-              En Savoir Plus 
+              En Savoir Plus
             </a>
           </p>
         </div>
