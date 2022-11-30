@@ -18,7 +18,7 @@ const Accueil = () => {
             pendant les soins.
           </p>
           <p>
-            <a className="btn btn-secondary" href="/bungalows">
+            <a className="btn btn-info" href="/bungalows">
               En Savoir Plus
             </a>
           </p>
@@ -36,7 +36,7 @@ const Accueil = () => {
             tahitiennes à base de produits frais locaux.
           </p>
           <p>
-            <a className="btn btn-secondary mt-4" href="/bungalows">
+            <a className="btn btn-info mt-4" href="/bungalows">
               En Savoir Plus
             </a>
           </p>
@@ -55,7 +55,7 @@ const Accueil = () => {
             plus grand respect des animaux.
           </p>
           <p>
-            <a className="btn btn-secondary mt-4" href="/activites">
+            <a className="btn btn-info mt-4" href="/activites">
               En Savoir Plus
             </a>
           </p>

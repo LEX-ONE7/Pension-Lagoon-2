@@ -51,7 +51,27 @@ const Footer = () => {
                   Nous Contacter
                 </a>
               </li>
+
             </ul>
+          </div>
+          <div className="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Abonnez vous a notre newsletter</h5>
+              <div className="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" className="visually-hidden">
+                  Adresse mail
+                </label>
+                <input
+                  id="newsletter1"
+                  type="text"
+                  className="form-control"
+                  placeholder="Adresse mail"
+                />
+                <button className="btn btn-primary" type="button">
+                  Souscrire
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
