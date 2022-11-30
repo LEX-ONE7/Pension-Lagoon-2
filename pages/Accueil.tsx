@@ -67,7 +67,7 @@ const Accueil = () => {
       <div className="row featurette">
         <div className="col-md-6 d-flex flex-column  justify-content-center ">
           <h2 className="featurette-heading fw-normal text-secondary ">
-            CHAMBRES ET BUNGALOWS.
+            CHAMBRES ET BUNGALOWS
             <hr className="text-primary " />
             <p className="text-info">Offrez vous un séjour de rêve !</p>
             <hr className="text-primary" />
@@ -95,8 +95,8 @@ const Accueil = () => {
       <div className="row featurette">
         <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
           <h2 className="featurette-heading fw-normal lh-1 text-secondary">
-            ACTIVITES. <hr className="text-info" />
-            <p className="text-primary"> Sublimez votre expérience !</p>
+            ACTIVITES <hr className="text-primary" />
+            <p className="text-info"> Sublimez votre expérience !</p>
             <hr className="text-primary" />
           </h2>
           <p className="lead ">
@@ -121,7 +121,7 @@ const Accueil = () => {
       <div className="row featurette pb-5">
         <div className="col-md-6 d-flex flex-column justify-content-center  ">
           <h2 className="featurette-heading fw-normal lh-1 text-secondary">
-            EVENEMENTS. <hr className="text-primary" />
+            EVENEMENTS <hr className="text-primary" />
             <p className="text-info">Vivez une expérience inoubliable !</p>
             <hr className="text-primary" />
           </h2>
