@@ -11,7 +11,7 @@ const Accueil = () => {
             className="rounded-circle"
           />
 
-          <h2 className="fw-normal">Séjour Edenique</h2>
+          <h2 className="fw-normal mt-4">Séjour Edenique</h2>
           <p>
             Ambiance « full lagon », optez pour l'un de nos Bungalows sur
             pilotis à fond de verre, permettant d’admirer la faune et la flore
@@ -30,7 +30,7 @@ const Accueil = () => {
             src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/feet5t.jpg"
             className="rounded-circle"
           />
-          <h2 className="fw-normal">Spécialités Locales</h2>
+          <h2 className="fw-normal mt-4">Spécialités Locales</h2>
           <p>
             Des menus comprenant divers poissons frais, des spécialités
             tahitiennes à base de produits frais locaux.
@@ -49,7 +49,7 @@ const Accueil = () => {
             className="rounded-circle"
           />
 
-          <h2 className="fw-normal">Sortie Baleine</h2>
+          <h2 className="fw-normal mt-4">Sortie Baleine</h2>
           <p>
             Venez à la rencontre des baleines et de leurs baleineaux dans le
             plus grand respect des animaux.

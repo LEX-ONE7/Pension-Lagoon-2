@@ -51,30 +51,35 @@ const BoxBungalow = () => (
       <div className="row align-items-md-stretch">
         <div className="col-md-6">
           <div className="h-100 p-5 text-bg-dark rounded-3 text-center">
-            <img src="https://www.yestahiti.fr/_client_files/infos_voyageurs/chaud-froid.jpg" />
+            <img
+              style={{ height: '450px' }}
+              className="img-fluid w-100"
+              src="https://www.yestahiti.fr/_client_files/infos_voyageurs/chaud-froid.jpg"
+            />
             <h2 className="mt-4 mb-4">Chaud-Froid</h2>
+            <p>Tataki au thon rouge.</p>
+
             <button className="btn btn-outline-light" type="button">
               Commander
             </button>
           </div>
         </div>
         <div className="col-md-6">
-          <div className="h-100 p-5 bg-light border rounded-3">
-            <img src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/feet5t.jpg" />
-            <h2>Crudités</h2>
-            <p>
-              Or, keep it light and add a border for some added definition to
-              the boundaries of your content. Be sure to look under the hood at
-              the source HTML here as we've adjusted the alignment and sizing of
-              both column's content for equal-height.
-            </p>
-            <button className="btn btn-outline-secondary" type="button">
+          <div className="h-100 p-5 text-bg-dark border rounded-3 text-center">
+            <img
+              style={{ height: '450px' }}
+              className="img-fluid w-100"
+              src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/feet5t.jpg"
+            />
+            <h2 className="mt-4 mb-4">Crudités</h2>
+            <p>Poisson cru au lait de coco.</p>
+            <button className="btn btn-outline-light" type="button">
               Commander
             </button>
           </div>
         </div>
       </div>
-      <div className="p-5 mb-4 bg-light rounded-5">
+      <div className="p-5 mt-4 mb-4 bg-light rounded-6">
         <div className="container-fluid py-2">
           <SliderAuto collection="Chambres" />
           <h2 className="display-5 fw-bold">Repas</h2>
@@ -83,11 +88,9 @@ const BoxBungalow = () => (
             Demi-Pension : 2500 fr/Jour <br />
             Pension Complète: 4000 fr/Jour{' '}
           </p>
-          <button className="btn btn-info btn-lg rounded-3" type="button">
-            Réserver
-          </button>
+        
           <div className="col-12  bg-warning">
-            <h6>Autres</h6>
+            <h6 className="display-5 fw-bold">Autres</h6>
 
             <p>Garde Animaux : 2500 fr</p>
           </div>

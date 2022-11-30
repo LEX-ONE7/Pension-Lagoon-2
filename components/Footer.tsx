@@ -7,7 +7,6 @@ const Footer = () => {
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h5 className="text-uppercase">Avis Clients</h5>
 
-
             <div
               className="div "
               style={{ height: '150px', overflowY: 'scroll' }}
@@ -52,27 +51,28 @@ const Footer = () => {
                 </a>
               </li>
 
+              <li>
+                <a href="#!" className="text-white">
+                  Abonnez vous a notre newsletter
+                </a>
+                <div className="d-flex flex-column flex-sm-row w-100 gap-2 mt-4">
+                  <label for="newsletter1" className="visually-hidden">
+                    Adresse mail
+                  </label>
+                  <input
+                    id="newsletter1"
+                    type="text"
+                    className="form-control"
+                    placeholder="Adresse mail"
+                  />
+                  <button className="btn btn-primary" type="button">
+                    Souscrire
+                  </button>
+                </div>
+              </li>
             </ul>
           </div>
-          <div className="col-md-5 offset-md-1 mb-3">
-            <form>
-              <h5>Abonnez vous a notre newsletter</h5>
-              <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" className="visually-hidden">
-                  Adresse mail
-                </label>
-                <input
-                  id="newsletter1"
-                  type="text"
-                  className="form-control"
-                  placeholder="Adresse mail"
-                />
-                <button className="btn btn-primary" type="button">
-                  Souscrire
-                </button>
-              </div>
-            </form>
-          </div>
+          <div className="col-md-5 offset-md-1 mb-3"></div>
         </div>
       </div>
 
