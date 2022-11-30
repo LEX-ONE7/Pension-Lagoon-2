@@ -123,8 +123,7 @@ const Accueil = () => {
             Vivez une expérience inoubliable !
           </h2>
           <p className="lead ">
-            Avec des vues éblouissantes, un équipement à la pointe de la
-            technologie, un excellent soutien de notre équipe d'événements et un
+            Avec des vues éblouissantes,un excellent soutien de notre équipe d'événements et un
             superbe emplacement dans le Pacifique Sud, soyez sûr d'un évènement
             réussi !
           </p>
