@@ -102,7 +102,7 @@ const Accueil = () => {
             <hr className="text-primary" />
           </h2>
           <p className="lead ">
-            Entre lagon bleu turquoise et vallées verdoyantes, Tahiti regorge de
+            Entre lagon bleu turquoise et vallées verdoyantes, Moorea regorge de
             paysages à couper le souffle qui ne demandent qu’à être découvert
             lors de votre séjour.
             <br /> En mer ou sur terre, Lagoon Lodge saura répondre à vos
