@@ -7,7 +7,7 @@ const Accueil = () => {
           <img
             width="140"
             height="140"
-            src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/feet5t.jpg"
+            src="https://i.pinimg.com/originals/94/72/f4/9472f481da0de707b4f855d0db76b91c.jpg"
             className="rounded-circle"
           />
 
