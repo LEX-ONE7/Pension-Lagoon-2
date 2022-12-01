@@ -17,9 +17,9 @@ const Accueil = () => {
             pilotis à fond de verre, permettant d’admirer la faune et la flore
             pendant les soins.
           </p>
-            <a className="btn btn-info text-white " href="/bungalows">
-              En Savoir Plus
-            </a>
+          <a className="btn btn-info text-white " href="/bungalows">
+            En Savoir Plus
+          </a>
         </div>
         <div className="col-lg-4 p-4 d-flex flex-column align-items-center text-center">
           <img
@@ -95,7 +95,10 @@ const Accueil = () => {
       <div className="row featurette">
         <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
           <h2 className="featurette-heading fw-normal lh-1 text-secondary">
-            ACTIVITES <hr className="text-primary" />
+            <a className="text-secondary " href="/bungalows">
+              ACTIVITES{' '}
+            </a>
+            <hr className="text-primary" />
             <p className="text-info"> Sublimez votre expérience !</p>
             <hr className="text-primary" />
           </h2>
@@ -121,7 +124,10 @@ const Accueil = () => {
       <div className="row featurette pb-5">
         <div className="col-md-6 d-flex flex-column justify-content-center  ">
           <h2 className="featurette-heading fw-normal lh-1 text-secondary">
-            EVENEMENTS <hr className="text-primary" />
+            <a className="text-secondary " href="/bungalows">
+              EVENEMENTS{' '}
+            </a>
+            <hr className="text-primary" />
             <p className="text-info">Vivez une expérience inoubliable !</p>
             <hr className="text-primary" />
           </h2>
