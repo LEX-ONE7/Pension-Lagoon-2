@@ -95,7 +95,7 @@ const Accueil = () => {
       <div className="row featurette">
         <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
           <h2 className="featurette-heading fw-normal lh-1 text-secondary">
-            <a className="text-secondary " href="/bungalows">
+            <a className="text-secondary " href="/activites">
               ACTIVITES{' '}
             </a>
             <hr className="text-primary" />
@@ -124,7 +124,7 @@ const Accueil = () => {
       <div className="row featurette pb-5">
         <div className="col-md-6 d-flex flex-column justify-content-center  ">
           <h2 className="featurette-heading fw-normal lh-1 text-secondary">
-            <a className="text-secondary " href="/bungalows">
+            <a className="text-secondary " href="/evenements">
               EVENEMENTS{' '}
             </a>
             <hr className="text-primary" />
