@@ -5,7 +5,10 @@ const Navbar = () => (
       <img
         width="50"
         height="50"
-        src="https://i.pinimg.com/originals/94/72/f4/9472f481da0de707b4f855d0db76b91c.jpg"
+        src="
+        blob:blob:https://mega.nz/2c23d4f0-4c74-43bc-9a7d-5b260be0d5bf
+        
+        "
         className="rounded-circle"
       />
       <a className="navbar-brand p-2" href="#">
