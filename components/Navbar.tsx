@@ -6,7 +6,8 @@ const Navbar = () => (
         width="50"
         height="50"
         src="
-        blob:blob:https://mega.nz/2c23d4f0-4c74-43bc-9a7d-5b260be0d5bf
+        https://media.discordapp.net/attachments/1047585005313990716/1048384424162644099/2c23d4f0-4c74-43bc-9a7d-5b260be0d5bf.png
+        
         
         "
         className="rounded-circle"
