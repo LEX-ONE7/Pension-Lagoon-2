@@ -34,7 +34,7 @@ const Accueil = () => {
             tahitiennes à base de produits frais locaux.
           </p>
           <p>
-            <a className="btn btn-info mt-4 text-white" href="/bungalows">
+            <a className="btn btn-info mt-1 text-white" href="/bungalows">
               En Savoir Plus
             </a>
           </p>

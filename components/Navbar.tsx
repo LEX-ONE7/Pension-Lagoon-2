@@ -8,7 +8,7 @@ const Navbar = () => (
         src="https://i.pinimg.com/originals/94/72/f4/9472f481da0de707b4f855d0db76b91c.jpg"
         className="rounded-circle"
       />
-      <a className="navbar-brand p-3" href="#">
+      <a className="navbar-brand p-2" href="#">
         LAGOON LODGE
       </a>
       <button
