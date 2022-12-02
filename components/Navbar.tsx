@@ -1,6 +1,6 @@
 import * as React from 'react';
 const Navbar = () => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-info d-flex">
+  <nav className="navbar navbar-expand-lg navbar-dark bg-info ">
     <div className="container-fluid">
       <img
         width="50"
