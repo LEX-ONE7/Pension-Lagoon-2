@@ -24,7 +24,7 @@ const BoxBungalow = () => (
           </p>
 
           <button
-            className="btn btn-info btn-lg rounded-3 btn-outline-light mt-4"
+            className="btn btn-lg rounded-3 btn-outline-light mt-4"
             type="button"
           >
             Réserver
@@ -63,9 +63,7 @@ const BoxBungalow = () => (
             <h2 className="mt-4 mb-4">Chaud-Froid</h2>
             <p className="fs-5">Tataki au thon rouge.</p>
 
-            <button className="btn btn-outline-light mt-4" type="button">
-              Commander
-            </button>
+          
           </div>
         </div>
         <div className="col-md-6">
@@ -77,48 +75,76 @@ const BoxBungalow = () => (
             />
             <h2 className="mt-4 mb-4">Crudités</h2>
             <p className="fs-5">Poisson cru au lait de coco.</p>
-            <button className="btn btn-outline-light mt-4" type="button">
-              Commander
-            </button>
+          
           </div>
         </div>
       </div>
-      <div className="p-5 mt-4 mb-4 bg-light rounded-6">
-        /Repas Section
-        <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div className="p-5 mt-4 mb-4 bg-whitesmoke rounded-6">
+        <div className="row space-around center">
           <div className="col">
             <div className="card mb-4 rounded-3 shadow-sm">
               <div className="card-header py-3">
-                <h4 className="my-0 fw-normal">Free</h4>
+                <h4 className="my-0 fw-normal"> Petit Déjeuner</h4>
               </div>
               <div className="card-body">
                 <h1 className="card-title pricing-card-title">
-                  $0<small className="text-muted fw-light">/mo</small>
+                  1000 fr<small className="text-muted fw-light">/Jour</small>
                 </h1>
                 <ul className="list-unstyled mt-3 mb-4">
-                  <li>10 users included</li>
-                  <li>2 GB of storage</li>
-                  <li>Email support</li>
-                  <li>Help center access</li>
+                  <li>Prix/pers</li>
                 </ul>
                 <button
                   type="button"
-                  className="w-100 btn btn-lg btn-outline-primary"
+                  className="w-100 btn btn-lg btn-info btn-lg rounded-3 btn-outline-light"
                 >
-                  Sign up for free
+                  Réserver une table
                 </button>
+                
+              </div>
+            </div>
+            <div className="card mb-4 rounded-3 shadow-sm">
+              <div className="card-header py-3">
+                <h4 className="my-0 fw-normal"> Demi-Pension</h4>
+              </div>
+              <div className="card-body">
+                <h1 className="card-title pricing-card-title">
+                  2500 fr<small className="text-muted fw-light">/Jour</small>
+                </h1>
+                <ul className="list-unstyled mt-3 mb-4">
+                  <li>Prix/pers</li>
+                </ul>
+                <button
+                  type="button"
+                  className="w-100 btn btn-lg btn-info btn-lg rounded-3 btn-outline-light"
+                >
+                  Réserver une table
+                </button>
+                
+              </div>
+            </div>
+            <div className="card mb-4 rounded-3 shadow-sm">
+              <div className="card-header py-3">
+                <h4 className="my-0 fw-normal"> Pension Complète</h4>
+              </div>
+              <div className="card-body">
+                <h1 className="card-title pricing-card-title">
+                  4000 fr<small className="text-muted fw-light">/Jour</small>
+                </h1>
+                <ul className="list-unstyled mt-3 mb-4">
+                  <li>Prix/pers</li>
+                </ul>
+                <button
+                  type="button"
+                  className="w-100 btn btn-lg btn-info btn-lg rounded-3 btn-outline-light"
+                >
+                  Réserver une table
+                </button>
+                
               </div>
             </div>
           </div>
           <div className="container-fluid py-2">
-            <SliderAuto collection="Chambres" />
-            <h2 className="display-5 fw-bold">Repas</h2>
-            <p className="col-md-8 fs-4">
-              Petit Déjeuner : 1000 fr/Jour <br />
-              Demi-Pension : 2500 fr/Jour <br />
-              Pension Complète: 4000 fr/Jour{' '}
-            </p>
-
+            
             <div className="col-12  bg-warning">
               <h6 className="display-5 fw-bold">Autres</h6>
 
