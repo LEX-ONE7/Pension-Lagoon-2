@@ -135,6 +135,11 @@ const BoxBungalow = () => (
               </button>
             </div>
           </div>
+          <div className=" bg-whitesmoke float-end">
+            <h6 className="display-6  ">Autres</h6>
+
+            <p>Garde Animaux : 2500 fr</p>
+          </div>
         </div>
         <footer className="pt-3 mt-4 text-muted border-top">&copy; 2022</footer>
       </div>

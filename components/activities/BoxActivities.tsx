@@ -21,7 +21,14 @@ const BoxActivities = () => (
               <div className="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                 <div className="my-3 p-3">
                   <h2 className="display-5">Nautiques</h2>
-                  <p className="lead">And an even wittier subheading.</p>
+                  <p className="lead">
+                    Entouré par les eaux cristallines de l'océan Pacifique Sud,
+                    l'InterContinental Tahiti Resort & Spa propose une mutitude
+                    de sports nautiques. Offrez-vous une excursion guidée de
+                    plongée en apnée ou une sortie en voilier, partez à
+                    l'aventure pour surfer les vagues de Tahiti ou faites le
+                    plein de sensations aquatiques en kayak ou en jet ski.{' '}
+                  </p>
                 </div>
                 <div
                   className="bg-dark shadow-sm mx-auto"
