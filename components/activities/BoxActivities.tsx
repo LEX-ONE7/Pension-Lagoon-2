@@ -2,7 +2,7 @@ import * as React from 'react';
 const BoxActivities = () => (
   <div className="container-fluid">
     <div className="row">
-      <div className="col-12 bg-success">
+      <div className="col-12 bg-whitesmoke">
         <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
           <div className="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div className="my-4 py-4">
@@ -18,7 +18,7 @@ const BoxActivities = () => (
               }}
             ></div>
             <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-              <div className="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+              <div className="bg-info me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                 <div className="my-3 p-3">
                   <h2 className="display-5">Nautiques</h2>
                   <p className="lead">
@@ -31,7 +31,7 @@ const BoxActivities = () => (
                   </p>
                 </div>
                 <div
-                  className="bg-dark shadow-sm mx-auto"
+                  className="bg-whitesmoke shadow-sm mx-auto"
                   style={{
                     width: '80%',
                     height: '300px',
