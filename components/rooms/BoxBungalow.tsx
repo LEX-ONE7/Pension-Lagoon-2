@@ -35,9 +35,9 @@ const BoxBungalow = () => (
       </div>
 
       <div className="p-5 mb-4 bg-light rounded-5">
-        <div className="container-fluid py-2">
+        <div className="container-fluid py-5">
           <h2 className="display-6 fw-bold float-end ">Chambres</h2>
-          <p className=" fs-4">
+          <p className=" col-md-12 fs-4">
             Quelles que soient leur catégorie et leur situation, toutes nos
             chambres vous offrira un concentré de confort.
           </p>
