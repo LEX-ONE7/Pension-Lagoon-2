@@ -2,7 +2,7 @@ import * as React from 'react';
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-info ">
     <div className="container-fluid">
-      <a className="navbar-brand p-2" href="#">
+      <a className="navbar-brand " href="#">
         <img
           width="50"
           height="50"
@@ -13,7 +13,7 @@ const Navbar = () => (
         "
           className="rounded-circle "
         />
-        LAGOON LODGE
+        <p>LAGOON LODGE</p>
       </a>
       <button
         className="navbar-toggler"
