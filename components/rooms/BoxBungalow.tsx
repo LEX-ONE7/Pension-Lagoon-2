@@ -77,7 +77,7 @@ const BoxBungalow = () => (
         </div>
       </div>
       <div className="pt-5 mt-4 mb-4 bg-whitesmoke rounded-3">
-        <div className="row space-between  row-cols-lg-3 text-center">
+        <div className="row   row-cols-lg-3 space-between text-center">
           <div className="card  shadow-sm">
             <div className="card-header py-3">
               <h4 className="my-0 fw-normal"> Petit Déjeuner</h4>
