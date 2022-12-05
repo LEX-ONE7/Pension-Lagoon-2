@@ -2,12 +2,12 @@ import * as React from 'react';
 const BoxActivities = () => (
   <div className="container-fluid">
     <div className="row">
-      <div className="col-12 bg-whitesmoke">
+      <div className="col-12 bg-white">
         <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-          <div className="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div className="text-bg-secondary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
             <div className="my-4 py-4">
               <h2 className="display-6">Activités</h2>
-              <p className="lead">And an even wittier subheading.</p>
+              <p className="lead">Sublimez Votre Expérience.</p>
             </div>
             <div
               className="bg-light shadow-sm mx-auto"
@@ -31,7 +31,7 @@ const BoxActivities = () => (
                   </p>
                 </div>
                 <div
-                  className="bg-whitesmoke shadow-sm mx-auto"
+                  className="bg-white shadow-sm mx-auto"
                   style={{
                     width: '80%',
                     height: '300px',
