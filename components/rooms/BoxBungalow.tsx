@@ -17,7 +17,9 @@ const BoxBungalow = () => (
             privée et d’un accès direct au lagon.
           </p>
           <SliderAuto collection="layout-bungalows" />
-          <p className="fs-4 mt-4">
+          <p className="float-end">Garde Animaux : 2500 fr/Jour</p>
+
+          <p className="fs-4 mt-4 text-white">
             Equipées d’un TV, d’un mini-bar, de WC et salle de bains ou douche.
             Un accès WIFI gratuit est accessible dans toutes nos chambres et
             bungalows. Hotel ouvert 7j/7
@@ -34,9 +36,7 @@ const BoxBungalow = () => (
 
       <div className="p-5 mb-4 bg-light rounded-5">
         <div className="container-fluid py-2">
-          <h2 className="display-6 fw-bold text-center float-end mb-4">
-            Chambres
-          </h2>
+          <h2 className="display-6 fw-bold float-end ">Chambres</h2>
           <p className=" fs-4">
             Quelles que soient leur catégorie et leur situation, toutes nos
             chambres vous offrira un concentré de confort.
@@ -49,7 +49,7 @@ const BoxBungalow = () => (
           >
             Réserver
           </button>
-          <p className="float-end">Garde Animaux : 2500 fr</p>
+          <p className="float-end">Garde Animaux : 2500 fr/Jour</p>
         </div>
       </div>
     </div>
