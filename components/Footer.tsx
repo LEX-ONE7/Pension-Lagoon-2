@@ -9,7 +9,7 @@ const Footer = () => {
 
             <div
               className="div "
-              style={{ height: '150px', overflowY: 'scroll', background: '#555'}}
+              style={{ height: '150px', overflowY: 'scroll' }}
             >
               <div>
                 Petit aperçu de la culture polynésienne avec le village et le
@@ -76,9 +76,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div
-        className="text-center p-3 bg-info"
-      >
+      <div className="text-center p-3 bg-info">
         © 2022 Copyright: Cet hôtel est la propriété de Lex Company
         <br />
         <a className="text-white" href="/">
