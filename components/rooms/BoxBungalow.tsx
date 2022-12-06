@@ -4,7 +4,7 @@ import SliderAuto from '../SliderAuto';
 const BoxBungalow = () => (
   <div className="container-fluid ">
     <div className="row">
-      <div className="col-12 ">
+      <div >
         <h2 className="display-6 mt-4 ">Bungalows & Chambres</h2>
       </div>
     </div>

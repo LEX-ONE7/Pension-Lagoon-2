@@ -2,7 +2,24 @@ import * as React from 'react';
 const BoxEvents = () => (
   <div className="container-fluid">
     <div className="row">
-      <div className="col-12 col-md-8 bg-success">
+      <div className="  bg-success">
+        <div className="card rounded-8">
+          <img
+            src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
+            className="card-img"
+          />
+          <div className="card-img-overlay">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p className="card-text">
+              <small>Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
         <h3> Événements </h3>
         <p>
           Tahiti est l'endroit rêvé pour une escapade romantique dans les îles.
@@ -13,9 +30,8 @@ const BoxEvents = () => (
           les étoiles, et une multitude de paysages féériques pour des
           cérémonies somptueuses ou intimes selon vos envies.
         </p>
-        
       </div>
-      <div className="col-12 col-md-8 bg-info">
+      <div className=" bg-info">
         <h4> Mariages </h4>
         <p>
           Notre équipe vous organise des évènements mémorables, du dîner
@@ -23,7 +39,7 @@ const BoxEvents = () => (
           et privilèges, vivez des moments à deux exceptionnels et inoubliables.
         </p>
       </div>
-      <div className="col-12 col-md-8 bg-warning">
+      <div className=" bg-warning">
         <h3> Lune de Miel</h3>
         <p>
           La Polynésie est l’une des plus belles destinations au monde pour
@@ -32,7 +48,7 @@ const BoxEvents = () => (
           souvenir impérissable.
         </p>
       </div>
-      <div className="col-12 col-md-8 bg-danger">
+      <div className="bg-danger">
         <h3> Anniversaires</h3>
         <p>
           Fini les salles de fête basiques ou les partys d’anniversaire
