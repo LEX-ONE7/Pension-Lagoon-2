@@ -27,7 +27,7 @@ export default function SliderAuto({ collection }) {
 
   return (
     <Swiper
-      spaceBetween={30}
+      spaceBetween={0}
       centeredSlides={true}
       autoplay={{
         delay: 2500,
