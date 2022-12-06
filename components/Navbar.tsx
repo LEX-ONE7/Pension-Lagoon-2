@@ -11,7 +11,7 @@ const Navbar = () => (
         
         
         "
-          className="rounded-circle "
+          className="rounded-circle mx-5"
         />
         <p>LAGOON LODGE</p>
       </a>
