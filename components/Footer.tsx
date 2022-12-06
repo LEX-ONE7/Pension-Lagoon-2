@@ -77,8 +77,7 @@ const Footer = () => {
       </div>
 
       <div
-        className="text-center p-3"
-        style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
+        className="text-center p-3 bg-info"
       >
         © 2022 Copyright: Cet hôtel est la propriété de Lex Company
         <br />
