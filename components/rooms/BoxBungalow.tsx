@@ -10,7 +10,7 @@ const BoxBungalow = () => (
     </div>
     <div className="container py-4">
       <div className="p-5 mb-4 bg-info rounded-5">
-        <div className="container-fluid py-5">
+        <div className="container-fluid">
           <h2 className="display-6 fw-bold ">Bungalows</h2>
           <p className="col-md-12 fs-4 text-white">
             Les Bungalows Pilotis bénéficient d’une grande terrasse solarium
@@ -35,7 +35,7 @@ const BoxBungalow = () => (
       </div>
 
       <div className="p-5 mb-4 bg-light rounded-5">
-        <div className="container-fluid py-5">
+        <div className="container-fluid">
           <h2 className="display-6 fw-bold float-end ">Chambres</h2>
           <p className=" col-md-12 fs-4">
             Quelles que soient leur catégorie et leur situation, toutes nos
