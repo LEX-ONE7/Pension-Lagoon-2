@@ -25,7 +25,8 @@ const Accueil = () => {
           <img
             width="140"
             height="140"
-            src="https://img.theculturetrip.com/1440x/smart/wp-content/uploads/2020/02/feet5t.jpg"
+            src="https://www.yestahiti.fr/_client_files/infos_voyageurs/chaud-froid.jpg
+            "
             className="rounded-circle"
           />
           <h2 className="fw-normal mt-4">Spécialités Locales</h2>
@@ -141,7 +142,8 @@ const Accueil = () => {
           <img
             style={{ height: '450px' }}
             className="img-fluid w-100"
-            src="https://dbijapkm3o6fj.cloudfront.net/resources/1203,1004,1,6,4,0,600,450/-4153-/20180208132105/aro-tai-mariage-sur-la-plage.jpeg "
+            src="https://m.fourseasons.com/alt/img-opt/~70.1530.0,0000-1611,0370-2000,0000-1125,0000/publish/content/dam/fourseasons/images/web/BOR/BOR_1206_original.jpg
+             "
           />{' '}
         </div>
       </div>
