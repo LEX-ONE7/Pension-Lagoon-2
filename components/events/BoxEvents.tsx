@@ -3,7 +3,7 @@ const BoxEvents = () => (
   <div className="container-fluid">
     <div className="row">
       <div className="  bg-success">
-        <div className="card rounded-8">
+        <div className="card rounded-3">
           <img
             src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
             className="card-img"
