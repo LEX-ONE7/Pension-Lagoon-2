@@ -9,27 +9,20 @@ const BoxEvents = () => (
             className="card-img"
           />
           <div className="card-img-overlay">
-            <h5 className="card-title">Card title</h5>
+            <h3 className="card-title"> Évènements </h3>
             <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              Tahiti est l'endroit rêvé pour une escapade romantique dans les
+              îles. Des plages aux allures de carte postale, des eaux turquoises
+              scintillantes, des récifs de corail et des jungles verdoyantes en
+              font une destination hors pair. Notre archipel offre des lieux
+              insolites pour célébrer un mariage ou pour un rendez-vous en tête
+              à tête sous les étoiles, et une multitude de paysages féériques
+              pour des cérémonies somptueuses ou intimes selon vos envies.
             </p>
-            <p className="card-text">
-              <small>Last updated 3 mins ago</small>
-            </p>
+
+            <small>Last updated 3 mins ago</small>
           </div>
         </div>
-        <h3> Événements </h3>
-        <p>
-          Tahiti est l'endroit rêvé pour une escapade romantique dans les îles.
-          Des plages aux allures de carte postale, des eaux turquoises
-          scintillantes, des récifs de corail et des jungles verdoyantes en font
-          une destination hors pair. Notre archipel offre des lieux insolites
-          pour célébrer un mariage ou pour un rendez-vous en tête à tête sous
-          les étoiles, et une multitude de paysages féériques pour des
-          cérémonies somptueuses ou intimes selon vos envies.
-        </p>
       </div>
       <div className=" bg-info">
         <h4> Mariages </h4>
