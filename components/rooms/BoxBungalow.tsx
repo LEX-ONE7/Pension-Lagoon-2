@@ -4,7 +4,7 @@ import SliderAuto from '../SliderAuto';
 const BoxBungalow = () => (
   <div className="container-fluid ">
     <div className="row">
-      <div >
+      <div>
         <h2 className="display-6 mt-4 ">Bungalows & Chambres</h2>
       </div>
     </div>
@@ -22,7 +22,7 @@ const BoxBungalow = () => (
           <p className="fs-4 mt-4 text-white">
             Equipées d’un TV, d’un mini-bar, de WC et salle de bains ou douche.
             Un accès WIFI gratuit est accessible dans toutes nos chambres et
-            bungalows. Hotel ouvert 7j/7
+            bungalows.
           </p>
 
           <button
