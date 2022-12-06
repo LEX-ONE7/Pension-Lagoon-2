@@ -9,7 +9,7 @@ const Footer = () => {
 
             <div
               className="div "
-              style={{ height: '150px', overflowY: 'scroll' }}
+              style={{ height: '150px', overflowY: 'scroll', background: '#555'}}
             >
               <div>
                 Petit aperçu de la culture polynésienne avec le village et le
