@@ -46,7 +46,7 @@ export default function SliderAuto({ collection }) {
             src={slide.url}
             style={{
               height: '30rem',
-              obbjectFit: 'cover',
+              objectFit: 'cover',
               objectPosition: 'top',
             }}
           />
