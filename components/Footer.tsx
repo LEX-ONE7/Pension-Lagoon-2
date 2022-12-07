@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center p-3 bg-info">
+      <div className="text-center p-3 bg-info ">
         © 2022 Copyright: Cet hôtel est la propriété de Lex Company
         <br />
         <a className="text-white" href="/">
