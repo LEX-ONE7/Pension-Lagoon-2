@@ -5,11 +5,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App';
 import Activites from './pages/Activites';
-import AvisClients from './pages/AvisClients';
+import Contact from './pages/Contact';
 import Bungalows from './pages/Bungalows';
 import Evenements from './pages/Evenements';
 import Restaurant from './pages/Restaurant';
-
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
