@@ -8,6 +8,8 @@ import Activites from './pages/Activites';
 import AvisClients from './pages/AvisClients';
 import Bungalows from './pages/Bungalows';
 import Evenements from './pages/Evenements';
+import Restaurant from './pages/Restaurant';
+
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -16,7 +18,9 @@ const router = createBrowserRouter([
   { path: '/bungalows', element: <Bungalows /> },
   { path: '/activites', element: <Activites /> },
   { path: '/evenements', element: <Evenements /> },
-  { path: '/avisClients', element: <AvisClients /> },
+  { path: '/restaurant', element: <Restaurant /> },
+
+  { path: '/contact', element: <Contact /> },
 ]);
 root.render(
   <StrictMode>
