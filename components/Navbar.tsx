@@ -44,12 +44,17 @@ const Navbar = () => (
             </a>
           </li>
           <li className="nav-item">
+            <a className="nav-link" href="/restaurant">
+              Restaurant
+            </a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link" href="/evenements">
               Évènements
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/evenements">
+            <a className="nav-link" href="/contact">
               Contact
             </a>
           </li>
