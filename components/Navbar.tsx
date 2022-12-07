@@ -13,7 +13,7 @@ const Navbar = () => (
         "
           className="rounded-circle mx-5"
         />
-        <p>LAGOON LODGE</p>
+        <p className="mt-4 mb-0">LAGOON LODGE</p>
       </a>
       <button
         className="navbar-toggler"
