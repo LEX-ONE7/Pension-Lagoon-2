@@ -12,18 +12,8 @@ p {
     rgba(11, 191, 242, 1) 31%,
     rgba(11, 135, 160, 1) 100%
   );
-  
-    color: #fff;
-    background-color: #333;
-    transition: all 1s ease-out;
-  
-hover,
-focus {
-    color: white;
-    background-color: #fff;}
-  
 }
-.site-footer {
+#footer {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
