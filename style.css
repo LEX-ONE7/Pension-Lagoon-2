@@ -13,7 +13,7 @@ p {
     rgba(11, 135, 160, 1) 100%
   );
 }
-.footer {
+.site-footer {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
