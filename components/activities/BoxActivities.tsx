@@ -27,7 +27,7 @@ const BoxActivities = () => (
                     'linear-gradient(90deg, rgba(7,108,215,1) 0%, rgba(7,155,215,1) 36%, rgba(7,162,215,1) 65%, rgba(7,64,215,1) 100%)',
                 }}
               >
-                <div className="my-3 p-3">
+                <div >
                   <h2 className="display-5">Nautiques</h2>
                   <p className="lead">
                     Entouré par les eaux cristallines de l'océan Pacifique Sud,
