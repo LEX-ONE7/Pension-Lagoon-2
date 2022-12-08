@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
+          <div className="mt-4 mb-4">
             <h5 className="text-uppercase">Links</h5>
 
             <ul className="list-unstyled mb-0">
@@ -56,7 +56,7 @@ const Footer = () => {
                   Abonnez vous à notre newsletter
                 </a>
                 <div className="d-flex flex-column flex-sm-row w-100 gap-2 mt-4">
-                  <label for="newsletter1" className="visually-hidden">
+                  <label htmlFor="newsletter1" className="visually-hidden">
                     Adresse mail
                   </label>
                   <input
