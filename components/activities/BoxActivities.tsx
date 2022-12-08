@@ -57,6 +57,8 @@ const BoxActivities = () => (
                     travers la jungle.
                   </p>
                 </div>
+                <SliderAuto collection="Location" />
+
                 <div
                   className="bg-light shadow-sm mx-auto"
                   style={{
