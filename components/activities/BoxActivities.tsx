@@ -43,8 +43,11 @@ const BoxActivities = () => (
                   <SliderAuto collection="LocationMarine" />
                 </div>
               </div>
-              <div className="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                <div className="my-3 py-3">
+              <div className="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style={{
+                  background: "rgb(17,86,4)",
+                  background: "linear-gradient(90deg, rgba(17,86,4,1) 0%, rgba(77,209,48,1) 41%, rgba(68,188,38,1) 67%, rgba(21,68,8,1) 100%)",
+                }}>
+                <div className="my-3 py-3" >
                   <h2 className="display-5">Terrestres</h2>
                   <p className="lead">
                     {' '}
