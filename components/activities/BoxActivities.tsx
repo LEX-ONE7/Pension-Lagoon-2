@@ -20,14 +20,14 @@ const BoxActivities = () => (
             ></div>
             <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
               <div
-                className="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+                className=" pt-md-5  text-center overflow-hidden"
                 style={{
                   background: 'rgb(7,108,215)',
                   background:
                     'linear-gradient(90deg, rgba(7,108,215,1) 0%, rgba(7,155,215,1) 36%, rgba(7,162,215,1) 65%, rgba(7,64,215,1) 100%)',
                 }}
               >
-                <div >
+                <div className="  px-3">
                   <h2 className="display-5">Nautiques</h2>
                   <p className="lead">
                     Entouré par les eaux cristallines de l'océan Pacifique Sud,
@@ -50,14 +50,14 @@ const BoxActivities = () => (
                 </div>
               </div>
               <div
-                className="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+                className=" pt-md-5  text-center overflow-hidden"
                 style={{
                   background: 'rgb(17,86,4)',
                   background:
                     'linear-gradient(90deg, rgba(17,86,4,1) 0%, rgba(77,209,48,1) 41%, rgba(68,188,38,1) 67%, rgba(21,68,8,1) 100%)',
                 }}
               >
-                <div>
+                <div className="  px-3">
                   <h2 className="display-5">Terrestres</h2>
                   <p className="lead">
                     {' '}
@@ -73,7 +73,6 @@ const BoxActivities = () => (
                 </div>
 
                 <div
-                  className="bg-light shadow-sm mx-auto"
                   style={{
                     width: '100%',
                     height: '400px',
