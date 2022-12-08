@@ -2,8 +2,8 @@ import * as React from 'react';
 import SliderAuto from '../SliderAuto';
 const BoxActivities = () => (
   <div className="container-fluid ">
-    <div className="col-12 bg-white">
-      <div className="row">
+    <div className="row align-items-start">
+      <div className="col-12 bg-white">
         <div className="d-flex ">
           <div className="text-light bg-info px-3  text-center overflow-auto">
             <div className="py-4">
@@ -50,7 +50,7 @@ const BoxActivities = () => (
                 </div>
               </div>
               <div
-                className=" pt-md-5   overflow-auto"
+                className=" pt-md-5 overflow-auto"
                 style={{
                   background: 'rgb(17,86,4)',
                   background:
