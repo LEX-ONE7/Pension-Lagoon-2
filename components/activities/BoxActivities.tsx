@@ -5,7 +5,7 @@ const BoxActivities = () => (
     <div className="row">
       <div className="col-12 bg-white">
         <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-          <div className="text-bg-secondary pt-3 px-3 pt-md-5 px-md-5 text-center overflow-auto">
+          <div className="text-light bg-info px-3  text-center overflow-auto">
             <div className="my-4 py-4">
               <h2 className="display-6">Activités</h2>
               <p className="lead">Sublimez Votre Expérience.</p>
@@ -13,8 +13,8 @@ const BoxActivities = () => (
             <div
               className="bg-light shadow-sm mx-auto"
               style={{
-                width: '80%',
-                height: '300px',
+                width: '100%',
+                height: '400px',
                 bordeRadius: '21px 21px 0 0 ',
               }}
             ></div>
@@ -57,7 +57,7 @@ const BoxActivities = () => (
                     'linear-gradient(90deg, rgba(17,86,4,1) 0%, rgba(77,209,48,1) 41%, rgba(68,188,38,1) 67%, rgba(21,68,8,1) 100%)',
                 }}
               >
-                <div className="  px-3 py-3">
+                <div className="  px-3 ">
                   <h2 className="display-5 text-center">Terrestres</h2>
                   <p className="lead">
                     {' '}
