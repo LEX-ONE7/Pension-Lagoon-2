@@ -34,9 +34,9 @@ const BoxActivities = () => (
                 <div
                   className="bg-white shadow-sm mx-auto"
                   style={{
-                    width: '80%',
-                    height: '300px',
-                    bordeRadius: '21px 21px 0 0 ',
+                    width: '100%',
+                    height: '100%',
+                    borderRadius: '21px 21px 0 0 ',
                   }}
                 >
                   <SliderAuto collection="LocationMarine" />
