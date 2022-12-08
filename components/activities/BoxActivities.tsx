@@ -28,15 +28,15 @@ const BoxActivities = () => (
                     de sports nautiques. Offrez-vous une excursion guidée de
                     plongée en apnée ou une sortie en voilier, partez à
                     l'aventure pour surfer les vagues de Tahiti ou faites le
-                    plein de sensations aquatiques en kayak ou en jet ski.{' '}
+                    plein de sensations aquatiques en paddle, kayak ou en jet ski.{' '}
                   </p>
                 </div>
                 <div
                   className="bg-white shadow-sm mx-auto"
                   style={{
                     width: '100%',
-                    height: '100%',
-                    borderRadius: '21px 21px 0 0 ',
+                    height: '400px',
+                    bordeRadius: '21px 21px 0 0 ',
                   }}
                 >
                   <SliderAuto collection="LocationMarine" />
