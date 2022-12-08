@@ -1,4 +1,5 @@
 import * as React from 'react';
+import SliderAuto from '../SliderAuto';
 const BoxActivities = () => (
   <div className="container-fluid ">
     <div className="row">
@@ -37,7 +38,9 @@ const BoxActivities = () => (
                     height: '300px',
                     bordeRadius: '21px 21px 0 0 ',
                   }}
-                ></div>
+                >
+                  <SliderAuto collection="LocationMarine" />
+                </div>
               </div>
               <div className="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                 <div className="my-3 py-3">
