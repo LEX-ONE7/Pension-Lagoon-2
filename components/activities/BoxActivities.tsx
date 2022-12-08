@@ -28,7 +28,8 @@ const BoxActivities = () => (
                     de sports nautiques. Offrez-vous une excursion guidée de
                     plongée en apnée ou une sortie en voilier, partez à
                     l'aventure pour surfer les vagues de Tahiti ou faites le
-                    plein de sensations aquatiques en paddle, kayak ou en jet ski.{' '}
+                    plein de sensations aquatiques en paddle, kayak ou en jet
+                    ski.{' '}
                   </p>
                 </div>
                 <div
@@ -66,8 +67,7 @@ const BoxActivities = () => (
                     bordeRadius: '21px 21px 0 0 ',
                   }}
                 >
-                <SliderAuto collection="Location" />
-
+                  <SliderAuto collection="Location" />
                 </div>
               </div>
             </div>
@@ -78,44 +78,3 @@ const BoxActivities = () => (
   </div>
 );
 export default BoxActivities;
-
-function rgba(arg0: number, arg1: number, arg2: number, arg3: number): any {
-  throw new Error('Function not implemented.');
-}
-
-function deg(
-  arg0: number,
-  deg: any,
-  arg2: any,
-  arg3: number,
-  arg4: number,
-  arg5: number,
-  arg6: number,
-  arg7: number
-) {
-  throw new Error('Function not implemented.');
-}
-
-function gradient(
-  arg0: number,
-  deg: (
-    arg0: number,
-    deg: any,
-    arg2: any,
-    arg3: number,
-    arg4: number,
-    arg5: number,
-    arg6: number,
-    arg7: number
-  ) => void,
-  arg2: any,
-  arg3: number,
-  arg4: number,
-  arg5: number,
-  arg6: any,
-  arg7: number,
-  D0C7: any,
-  arg9: number
-) {
-  throw new Error('Function not implemented.');
-}
