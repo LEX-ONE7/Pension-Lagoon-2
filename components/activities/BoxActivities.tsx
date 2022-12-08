@@ -18,7 +18,7 @@ const BoxActivities = () => (
                 bordeRadius: '21px 21px 0 0 ',
               }}
             ></div>
-            <div className="d-md-flex ">
+            <div className="col-12 d-md-flex ">
               <div
                 className=" pt-md-5  text-center overflow-auto"
                 style={{
