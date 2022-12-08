@@ -4,7 +4,7 @@ const Footer = () => {
     <div id="footer" className="text-white text-center text-lg-start">
       <div className="container p-4">
         <div className="row">
-          <div className="col-lg-6 mb-4 mb-md-0">
+          <div className="col-lg-6 mb-4 ">
             <h5 className="text-uppercase">Avis Clients</h5>
 
             <div
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-4 mb-4">
+          <div className="col-lg-6  mb-4">
             <h5 className="text-uppercase">Links</h5>
 
             <ul className="list-unstyled mb-0">
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center p-3  " >
+      <div className="text-center p-3  ">
         © 2022 Copyright: Cet hôtel est la propriété de Lex Company
         <br />
         <a className="text-white" href="/">
