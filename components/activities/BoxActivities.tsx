@@ -1,6 +1,6 @@
 import * as React from 'react';
 const BoxActivities = () => (
-  <div className="container-fluid">
+  <div className="container-fluid ">
     <div className="row">
       <div className="col-12 bg-white">
         <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
@@ -85,6 +85,30 @@ function deg(
   arg5: number,
   arg6: number,
   arg7: number
+) {
+  throw new Error('Function not implemented.');
+}
+
+function gradient(
+  arg0: number,
+  deg: (
+    arg0: number,
+    deg: any,
+    arg2: any,
+    arg3: number,
+    arg4: number,
+    arg5: number,
+    arg6: number,
+    arg7: number
+  ) => void,
+  arg2: any,
+  arg3: number,
+  arg4: number,
+  arg5: number,
+  arg6: any,
+  arg7: number,
+  D0C7: any,
+  arg9: number
 ) {
   throw new Error('Function not implemented.');
 }
