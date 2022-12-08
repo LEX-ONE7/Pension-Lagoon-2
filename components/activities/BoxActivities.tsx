@@ -4,9 +4,9 @@ const BoxActivities = () => (
   <div className="container-fluid ">
     <div className="col-12 bg-white">
       <div className="row">
-        <div className="d-flex flex-md-equal ps-md-3">
+        <div className="d-flex ">
           <div className="text-light bg-info px-3  text-center overflow-auto">
-            <div className="my-4 py-4">
+            <div className="py-4">
               <h2 className="display-6">Activités</h2>
               <p className="lead">Sublimez Votre Expérience.</p>
             </div>
@@ -18,7 +18,7 @@ const BoxActivities = () => (
                 bordeRadius: '21px 21px 0 0 ',
               }}
             ></div>
-            <div className="d-flex ">
+            <div className="d-md-flex ">
               <div
                 className=" pt-md-5  text-center overflow-auto"
                 style={{
