@@ -5,7 +5,7 @@ const BoxActivities = () => (
     <div className="row">
       <div className="col-12 bg-white">
         <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-          <div className="text-bg-secondary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+          <div className="text-bg-secondary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-auto">
             <div className="my-4 py-4">
               <h2 className="display-6">Activités</h2>
               <p className="lead">Sublimez Votre Expérience.</p>
@@ -20,14 +20,14 @@ const BoxActivities = () => (
             ></div>
             <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
               <div
-                className=" pt-md-5  text-center overflow-hidden"
+                className=" pt-md-5  text-center overflow-auto"
                 style={{
                   background: 'rgb(7,108,215)',
                   background:
                     'linear-gradient(90deg, rgba(7,108,215,1) 0%, rgba(7,155,215,1) 36%, rgba(7,162,215,1) 65%, rgba(7,64,215,1) 100%)',
                 }}
               >
-                <div className="  px-3">
+                <div className="col-md-6  px-3">
                   <h2 className="display-5">Nautiques</h2>
                   <p className="lead">
                     Entouré par les eaux cristallines de l'océan Pacifique Sud,
@@ -50,15 +50,15 @@ const BoxActivities = () => (
                 </div>
               </div>
               <div
-                className=" pt-md-5  text-center overflow-hidden"
+                className=" pt-md-5   overflow-auto"
                 style={{
                   background: 'rgb(17,86,4)',
                   background:
                     'linear-gradient(90deg, rgba(17,86,4,1) 0%, rgba(77,209,48,1) 41%, rgba(68,188,38,1) 67%, rgba(21,68,8,1) 100%)',
                 }}
               >
-                <div className="  px-3">
-                  <h2 className="display-5">Terrestres</h2>
+                <div className=" col-lg-6 px-3 ">
+                  <h2 className="display-5 text-center">Terrestres</h2>
                   <p className="lead">
                     {' '}
                     Tahiti est une île regorgeant de trésors cachés, de ses
