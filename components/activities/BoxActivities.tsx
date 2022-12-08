@@ -40,7 +40,6 @@ const BoxActivities = () => (
                   </p>
                 </div>
                 <div
-                  className="bg-white shadow-sm mx-auto"
                   style={{
                     width: '100%',
                     height: '400px',
