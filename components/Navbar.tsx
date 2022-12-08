@@ -13,7 +13,7 @@ const Navbar = () => (
         "
           className="rounded-circle mx-5"
         />
-        <p className="mt-4 mb-0">LAGOON LODGE</p>
+        <p className="mt-4 ">LAGOON LODGE</p>
       </a>
       <button
         className="navbar-toggler"
@@ -21,7 +21,7 @@ const Navbar = () => (
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
         aria-controls="navbarNav"
-        aria-expanded="false"
+        aria-expandeed="false"
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon"></span>
