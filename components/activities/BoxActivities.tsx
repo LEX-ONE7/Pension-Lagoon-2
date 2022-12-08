@@ -4,7 +4,7 @@ const BoxActivities = () => (
   <div className="container-fluid ">
     <div className="row">
       <div className="col-12 bg-white">
-        <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+        <div className="d-flex flex-md-equal ps-md-3">
           <div className="text-light bg-info px-3  text-center overflow-auto">
             <div className="my-4 py-4">
               <h2 className="display-6">Activités</h2>
