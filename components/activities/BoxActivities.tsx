@@ -61,8 +61,8 @@ const BoxActivities = () => (
                 <div
                   className="bg-light shadow-sm mx-auto"
                   style={{
-                    width: '80%',
-                    height: '300px',
+                    width: '100%',
+                    height: '400px',
                     bordeRadius: '21px 21px 0 0 ',
                   }}
                 >
