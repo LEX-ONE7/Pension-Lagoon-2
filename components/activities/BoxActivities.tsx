@@ -57,7 +57,6 @@ const BoxActivities = () => (
                     travers la jungle.
                   </p>
                 </div>
-                <SliderAuto collection="Location" />
 
                 <div
                   className="bg-light shadow-sm mx-auto"
@@ -66,7 +65,10 @@ const BoxActivities = () => (
                     height: '300px',
                     bordeRadius: '21px 21px 0 0 ',
                   }}
-                ></div>
+                >
+                <SliderAuto collection="Location" />
+
+                </div>
               </div>
             </div>
           </div>
