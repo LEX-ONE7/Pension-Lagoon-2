@@ -2,7 +2,7 @@ import * as React from 'react';
 const BoxEvents = () => (
   <div className="container-fluid">
     <div className="row">
-      <div className="  bg-success">
+      <div className="  ">
         <div className="card rounded-3">
           <img
             src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
