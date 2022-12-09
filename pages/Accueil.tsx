@@ -118,33 +118,33 @@ const Accueil = () => {
             src="https://adventuredivers-spain.com/wp-content/uploads/2018/06/jetski.png "
           />{' '}
         </div>
-      </div>
 
-      <hr className="featurette-divider" />
+        <hr className="featurette-divider" />
 
-      <div className="row featurette pb-5">
-        <div className="col-md-6 d-flex flex-column justify-content-center  ">
-          <h2 className="featurette-heading fw-normal lh-1 text-secondary">
-            <a className="text-secondary " href="/evenements">
-              EVENEMENTS{' '}
-            </a>
-            <hr className="text-primary" />
-            <p className="text-info">Vivez une expérience inoubliable !</p>
-            <hr className="text-primary" />
-          </h2>
-          <p className="lead ">
-            Avec des vues éblouissantes,un excellent soutien de notre équipe
-            d'événements et un superbe emplacement dans le Pacifique Sud, soyez
-            sûr d'un évènement réussi !
-          </p>
-        </div>
-        <div className="col-md-6">
-          <img
-            style={{ height: '600px' }}
-            className="img-fluid w-100"
-            src="https://m.fourseasons.com/alt/img-opt/~70.1530.0,0000-1611,0370-2000,0000-1125,0000/publish/content/dam/fourseasons/images/web/BOR/BOR_1206_original.jpg
+        <div className="row featurette pb-5">
+          <div className="col-md-6 d-flex flex-column justify-content-center  ">
+            <h2 className="featurette-heading fw-normal lh-1 text-secondary">
+              <a className="text-secondary " href="/evenements">
+                EVENEMENTS{' '}
+              </a>
+              <hr className="text-primary" />
+              <p className="text-info">Vivez une expérience inoubliable !</p>
+              <hr className="text-primary" />
+            </h2>
+            <p className="lead ">
+              Avec des vues éblouissantes,un excellent soutien de notre équipe
+              d'événements et un superbe emplacement dans le Pacifique Sud,
+              soyez sûr d'un évènement réussi !
+            </p>
+          </div>
+          <div className="col-md-6">
+            <img
+              style={{ height: '600px' }}
+              className="img-fluid w-100"
+              src="https://m.fourseasons.com/alt/img-opt/~70.1530.0,0000-1611,0370-2000,0000-1125,0000/publish/content/dam/fourseasons/images/web/BOR/BOR_1206_original.jpg
              "
-          />{' '}
+            />{' '}
+          </div>
         </div>
       </div>
     </div>
