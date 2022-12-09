@@ -31,7 +31,7 @@ const BoxEvents = () => (
         <div className="col-md-6 d-flex flex-column  justify-content-center ">
           <h2 className="featurette-heading fw-normal  ">Mariages</h2>
 
-          <p>
+          <p className="lead">
             Notre équipe vous organise des évènements mémorables, du dîner
             romantique au mariage tahitien traditionnel. Entre cadeaux,
             surprises et privilèges, vivez des moments à deux exceptionnels et

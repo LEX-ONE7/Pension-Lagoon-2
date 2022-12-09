@@ -45,7 +45,7 @@ export default function SliderAuto({ collection }) {
           <img
             src={slide.url}
             style={{
-              height: '40rem',
+              height: '30rem',
               objectFit: 'cover',
               objectPosition: 'top',
             }}
