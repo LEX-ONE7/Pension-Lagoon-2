@@ -26,7 +26,7 @@ const Navbar = () => (
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <section style="background: #34495e; color: rgba(255, 255, 255, 0.5);">
+      <section style={{background: "#2ecc71", color: "rgba(0, 0, 0, 0.5)"}}>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav fs-5">
             <li className="nav-item">
