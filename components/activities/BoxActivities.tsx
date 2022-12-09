@@ -1,7 +1,6 @@
 import * as React from 'react';
 import SliderAuto from '../SliderAuto';
 const BoxActivities = () => (
-  <div className="container-fluid ">
     <div className="row  justify-content-start">
       <div className="col-12 bg-white">
         <div className="d-flex ">
@@ -94,6 +93,6 @@ const BoxActivities = () => (
         </div>
       </div>
     </div>
-  </div>
+  
 );
 export default BoxActivities;
