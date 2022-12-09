@@ -26,40 +26,42 @@ const Navbar = () => (
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav fs-5">
-          <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">
-              Accueil
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/bungalows">
-              Bungalows & Chambres
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/activites">
-              Activités
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/restaurant">
-              Restaurant
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/evenements">
-              Évènements
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/contact">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </div>
+      <section style="background: #34495e; color: rgba(255, 255, 255, 0.5);">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav fs-5">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                Accueil
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/bungalows">
+                Bungalows & Chambres
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/activites">
+                Activités
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/restaurant">
+                Restaurant
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/evenements">
+                Évènements
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   </nav>
 );
