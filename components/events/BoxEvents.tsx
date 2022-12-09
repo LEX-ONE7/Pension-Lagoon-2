@@ -27,8 +27,8 @@ const BoxEvents = () => (
       </div>
 
       {/* 3 Events*/}
-
       <div className="row featurette">
+
         <div className="col-md-6 d-flex flex-column  justify-content-center ">
           <h2 className="featurette-heading fw-normal  ">
             <a className="text-secondary " href="/bungalows">
