@@ -28,37 +28,21 @@ const BoxEvents = () => (
 
       {/* 3 Events*/}
       <div className="row featurette">
-
         <div className="col-md-6 d-flex flex-column  justify-content-center ">
-          <h2 className="featurette-heading fw-normal  ">
-            <a className="text-secondary " href="/bungalows">
-              CHAMBRES ET BUNGALOWS
-            </a>
-            <hr className="text-primary " />
-            <p className="text-info">Offrez vous un séjour de rêve !</p>
-            <hr className="text-primary" />
-          </h2>
+          <h2 className="featurette-heading fw-normal  ">Mariages</h2>
 
-          <p className="lead">
-            Le long des eaux paisibles du lagon ou au coeur des jardins
-            tropicaux nos chambres et Bungalows vous offre confort et
-            authenticité polynésienne.
-            <br />
-            Lumineux et spacieux, ce sont de véritables havres de détente.
+          <p>
+            Notre équipe vous organise des évènements mémorables, du dîner
+            romantique au mariage tahitien traditionnel. Entre cadeaux,
+            surprises et privilèges, vivez des moments à deux exceptionnels et
+            inoubliables.
           </p>
         </div>
         <div className="col-md-6">
           <SliderAuto collection="mariage" />
         </div>
       </div>
-      <div className=" bg-info">
-        <h4> Mariages </h4>
-        <p>
-          Notre équipe vous organise des évènements mémorables, du dîner
-          romantique au mariage tahitien traditionnel. Entre cadeaux, surprises
-          et privilèges, vivez des moments à deux exceptionnels et inoubliables.
-        </p>
-      </div>
+      <div className=" bg-info"></div>
       <div className=" bg-warning">
         <h3> Lune de Miel</h3>
         <p>
