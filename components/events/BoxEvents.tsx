@@ -24,6 +24,33 @@ const BoxEvents = () => (
           </div>
         </div>
       </div>
+      <div className="row featurette">
+        <div className="col-md-6 d-flex flex-column  justify-content-center ">
+          <h2 className="featurette-heading fw-normal  ">
+            <a className="text-secondary " href="/bungalows">
+              CHAMBRES ET BUNGALOWS
+            </a>
+            <hr className="text-primary " />
+            <p className="text-info">Offrez vous un séjour de rêve !</p>
+            <hr className="text-primary" />
+          </h2>
+
+          <p className="lead">
+            Le long des eaux paisibles du lagon ou au coeur des jardins
+            tropicaux nos chambres et Bungalows vous offre confort et
+            authenticité polynésienne.
+            <br />
+            Lumineux et spacieux, ce sont de véritables havres de détente.
+          </p>
+        </div>
+        <div className="col-md-6">
+          <img
+            style={{ height: '600px' }}
+            className="img-fluid w-100"
+            src="https://www.tropicalement-votre.com/produits/1030/doc/chambre-vue-lagon.jpg"
+          />{' '}
+        </div>
+      </div>
       <div className=" bg-info">
         <h4> Mariages </h4>
         <p>
