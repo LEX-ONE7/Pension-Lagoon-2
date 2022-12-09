@@ -1,12 +1,12 @@
 import * as React from 'react';
 const Accueil = () => {
   return (
-    <div className="container marketing">
+    <div className="container-fluid">
       <div className="row">
         <div className="col-lg-4 p-4 d-flex flex-column align-items-center text-center">
           <img
-            width="140"
-            height="140"
+            width="300"
+            height="300"
             src="https://i.pinimg.com/originals/94/72/f4/9472f481da0de707b4f855d0db76b91c.jpg"
             className="rounded-circle"
           />
@@ -23,8 +23,8 @@ const Accueil = () => {
         </div>
         <div className="col-lg-4 p-4 d-flex flex-column align-items-center text-center">
           <img
-            width="140"
-            height="140"
+            width="300"
+            height="300"
             src="https://www.yestahiti.fr/_client_files/infos_voyageurs/chaud-froid.jpg
             "
             className="rounded-circle"
@@ -42,8 +42,8 @@ const Accueil = () => {
         </div>
         <div className="col-lg-4 p-4 d-flex flex-column align-items-center text-center">
           <img
-            width="140"
-            height="140"
+            width="300"
+            height="300"
             src="https://mayottedecouverte.fr/wp-content/uploads/2018/05/saut-baleine-a-bosse-3-mayotte-decouverte.jpg"
             className="rounded-circle"
           />
@@ -84,7 +84,7 @@ const Accueil = () => {
         </div>
         <div className="col-md-6">
           <img
-            style={{ height: '450px' }}
+            style={{ height: '600px' }}
             className="img-fluid w-100"
             src="https://www.tropicalement-votre.com/produits/1030/doc/chambre-vue-lagon.jpg"
           />{' '}
@@ -113,7 +113,7 @@ const Accueil = () => {
         </div>
         <div className="col-md-6 order-md-1">
           <img
-            style={{ height: '450px' }}
+            style={{ height: '600px' }}
             className="img-fluid w-100"
             src="https://adventuredivers-spain.com/wp-content/uploads/2018/06/jetski.png "
           />{' '}
@@ -140,7 +140,7 @@ const Accueil = () => {
         </div>
         <div className="col-md-6">
           <img
-            style={{ height: '450px' }}
+            style={{ height: '600px' }}
             className="img-fluid w-100"
             src="https://m.fourseasons.com/alt/img-opt/~70.1530.0,0000-1611,0370-2000,0000-1125,0000/publish/content/dam/fourseasons/images/web/BOR/BOR_1206_original.jpg
              "
