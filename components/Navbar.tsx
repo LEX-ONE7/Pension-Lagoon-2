@@ -26,8 +26,8 @@ const Navbar = () => (
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <section style={{background: "#2ecc71", color: "rgba(0, 0, 0, 0.5)"}}>
-        <div className="collapse navbar-collapse" id="navbarNav">
+ 
+        <div className="collapse navbar-collapse" >
           <ul className="navbar-nav fs-5">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
@@ -61,7 +61,6 @@ const Navbar = () => (
             </li>
           </ul>
         </div>
-      </section>
     </div>
   </nav>
 );
