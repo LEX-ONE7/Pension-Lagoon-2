@@ -1,7 +1,6 @@
 import * as React from 'react';
 import SliderAuto from '../SliderAuto';
 const BoxEvents = () => (
-  <div className="container-fluid">
     <div className="row">
       <div className="  ">
         <div className="card rounded-3">
@@ -27,6 +26,7 @@ const BoxEvents = () => (
       </div>
 
       {/* 3 Events*/}
+      
       <div className="row featurette">
         <div className="col-md-6 d-flex flex-column  justify-content-center ">
           <h2 className="featurette-heading fw-normal  ">Mariages</h2>
@@ -42,7 +42,6 @@ const BoxEvents = () => (
           <SliderAuto collection="mariage" />
         </div>
       </div>
-      <div className=" bg-info"></div>
       <div className=" bg-warning">
         <h3> Lune de Miel</h3>
         <p>
@@ -63,7 +62,6 @@ const BoxEvents = () => (
         </p>
       </div>
     </div>
-    ...
-  </div>
+  
 );
 export default BoxEvents;
