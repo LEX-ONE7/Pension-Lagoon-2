@@ -1,4 +1,5 @@
 import * as React from 'react';
+import SliderAuto from '../SliderAuto';
 const BoxEvents = () => (
   <div className="container-fluid">
     <div className="row">
@@ -24,6 +25,9 @@ const BoxEvents = () => (
           </div>
         </div>
       </div>
+
+      {/* 3 Events*/}
+
       <div className="row featurette">
         <div className="col-md-6 d-flex flex-column  justify-content-center ">
           <h2 className="featurette-heading fw-normal  ">
@@ -44,11 +48,7 @@ const BoxEvents = () => (
           </p>
         </div>
         <div className="col-md-6">
-          <img
-            style={{ height: '600px' }}
-            className="img-fluid w-100"
-            src="https://www.tropicalement-votre.com/produits/1030/doc/chambre-vue-lagon.jpg"
-          />{' '}
+          <SliderAuto collection="mariage" />
         </div>
       </div>
       <div className=" bg-info">
