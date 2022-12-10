@@ -11,7 +11,7 @@ const Accueil = () => {
             className="rounded-circle"
           />
 
-          <h2 className="fw-normal mt-4">Séjour Edenique</h2>
+          <h2 className="fw-normal mt-4">Séjour Edénique</h2>
           <p>
             Ambiance « full lagon », optez pour l'un de nos Bungalows sur
             pilotis à fond de verre, permettant d’admirer la faune et la flore
@@ -61,6 +61,8 @@ const Accueil = () => {
         </div>
       </div>
 
+      {/* ROOMS */}
+
       <hr className="featurette-divider" />
 
       <div className="row featurette">
@@ -90,6 +92,7 @@ const Accueil = () => {
           />{' '}
         </div>
       </div>
+      {/* ACTS*/}
 
       <hr className="featurette-divider" />
 
@@ -118,6 +121,7 @@ const Accueil = () => {
             src="https://adventuredivers-spain.com/wp-content/uploads/2018/06/jetski.png "
           />{' '}
         </div>
+        {/* EVENTS */}
 
         <hr className="featurette-divider" />
 
@@ -137,7 +141,7 @@ const Accueil = () => {
               soyez sûr d'un évènement réussi !
             </p>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 order-md-1">
             <img
               style={{ height: '600px' }}
               className="img-fluid w-100"
