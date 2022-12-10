@@ -13,7 +13,7 @@ const Navbar = () => (
         "
           className="rounded-circle mx-5"
         />
-        <p className="mt-2 ">LAGOON LODGE</p>
+        <p className="mt-2 fs-4">LAGOON LODGE</p>
       </a>
       <button
         className="navbar-toggler"
@@ -26,41 +26,41 @@ const Navbar = () => (
       >
         <span className="navbar-toggler-icon"></span>
       </button>
- 
-        <div className="collapse navbar-collapse" id="navbarNav" >
-          <ul className="navbar-nav fs-5">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Accueil
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/bungalows">
-                Bungalows & Chambres
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/activites">
-                Activités
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/restaurant">
-                Restaurant
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/evenements">
-                Évènements
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/contact">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav fs-4">
+          <li className="nav-item">
+            <a className="nav-link active" aria-current="page" href="#">
+              Accueil
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/bungalows">
+              Bungalows & Chambres
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/activites">
+              Activités
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/restaurant">
+              Restaurant
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/evenements">
+              Évènements
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 );
