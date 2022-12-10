@@ -9,7 +9,9 @@ const Parallax = () => {
           className="imParallaxBackground"
           data-parallax-direction="down"
           data-parallax-zoom="140"
-        ></div>
+        >
+          <img src=""/>
+        </div>
       </div>
     </div>
   );
