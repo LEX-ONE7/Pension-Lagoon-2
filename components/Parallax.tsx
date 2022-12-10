@@ -6,14 +6,14 @@ const styles = {
   textAlign: 'center',
 };
 const insideStyles = {
-  background: "white",
+  background: 'white',
   padding: 20,
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%,-50%)"
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%,-50%)',
 };
-const App = () => (
+const Parallax = () => (
   <div style={styles}>
     <Parallax bgImage="image1" strength="500">
       <div style={{ height: 500 }}>
@@ -22,5 +22,4 @@ const App = () => (
     </Parallax>
   </div>
 );
-render(<App />, document.getElementById("root"));
-
+export default Parallax;
