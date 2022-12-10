@@ -5,7 +5,9 @@ const image1 =
 const Para = () => (
   <Parallax className="image" bgImage={image1} strength={800}>
     <div className="content">
-      <span className="img-txt">BUNGALOWS</span>
+      <span className="img-txt display-1 text-center">
+        Bungalows & Chambres
+      </span>
     </div>
   </Parallax>
 );
