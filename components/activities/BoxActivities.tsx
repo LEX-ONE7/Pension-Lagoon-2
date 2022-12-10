@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Parallax } from '../Parallax';
+import  Parallax  from '../Parallax';
 import SliderAuto from '../SliderAuto';
 const BoxActivities = () => (
   <div className="row  justify-content-start">

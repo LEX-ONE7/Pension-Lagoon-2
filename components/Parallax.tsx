@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Parallax, Background } from "react-parallax";
 
 const Parallax = () => {
   return (
