@@ -76,7 +76,7 @@ const Accueil = () => {
             <hr className="text-primary" />
           </h2>
 
-          <p className="lead">
+          <p className="fs-4">
             Le long des eaux paisibles du lagon ou au coeur des jardins
             tropicaux nos chambres et Bungalows vous offre confort et
             authenticité polynésienne.
@@ -104,7 +104,7 @@ const Accueil = () => {
               <p className="text-info"> Sublimez votre expérience !</p>
               <hr className="text-primary" />
             </h2>
-            <p className="lead ">
+            <p className="fs-4 ">
               Entre lagon bleu turquoise et vallées verdoyantes, Moorea regorge
               de paysages à couper le souffle qui ne demandent qu’à être
               découvert lors de votre séjour.
@@ -135,7 +135,7 @@ const Accueil = () => {
               <p className="text-info">Vivez une expérience inoubliable !</p>
               <hr className="text-primary" />
             </h2>
-            <p className="lead ">
+            <p className="fs-4">
               Avec des vues éblouissantes,un excellent soutien de notre équipe
               d'événements et un superbe emplacement dans le Pacifique Sud,
               soyez sûr d'un évènement réussi !
