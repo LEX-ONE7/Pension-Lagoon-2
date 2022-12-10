@@ -2,7 +2,7 @@ import * as React from 'react';
 const Accueil = () => {
   return (
     <div className="container-fluid">
-      <div className="row">
+      <div className="row col-12">
         <div className="col-lg-4 p-4 d-flex flex-column align-items-center text-center">
           <img
             width="300"
@@ -63,7 +63,7 @@ const Accueil = () => {
 
       {/* ROOMS */}
 
-      <hr className="featurette-divider" />
+      <hr />
 
       <div className="row featurette">
         <div className="col-md-6 d-flex flex-column  justify-content-center ">
@@ -91,36 +91,38 @@ const Accueil = () => {
             src="https://www.tropicalement-votre.com/produits/1030/doc/chambre-vue-lagon.jpg"
           />{' '}
         </div>
-      </div>
-      {/* ACTS*/}
+        {/* ACTS*/}
+        <hr className="featurette-divider" />
 
-      <hr className="featurette-divider" />
+        <div className="row featurette">
+          <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
+            <h2 className="featurette-heading fw-normal lh-1 text-secondary">
+              <a className="text-secondary " href="/activites">
+                ACTIVITES{' '}
+              </a>
+              <hr className="text-primary" />
+              <p className="text-info"> Sublimez votre expérience !</p>
+              <hr className="text-primary" />
+            </h2>
+            <p className="lead ">
+              Entre lagon bleu turquoise et vallées verdoyantes, Moorea regorge
+              de paysages à couper le souffle qui ne demandent qu’à être
+              découvert lors de votre séjour.
+              <br /> En mer ou sur terre, Lagoon Lodge saura répondre à vos
+              attentes.
+            </p>
+          </div>
+          <div className="col-md-6 order-md-1">
+            <img
+              style={{ height: '600px' }}
+              className="img-fluid w-100"
+              src="https://adventuredivers-spain.com/wp-content/uploads/2018/06/jetski.png "
+            />{' '}
+          </div>
+        </div>
 
-      <div className="row featurette">
-        <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
-          <h2 className="featurette-heading fw-normal lh-1 text-secondary">
-            <a className="text-secondary " href="/activites">
-              ACTIVITES{' '}
-            </a>
-            <hr className="text-primary" />
-            <p className="text-info"> Sublimez votre expérience !</p>
-            <hr className="text-primary" />
-          </h2>
-          <p className="lead ">
-            Entre lagon bleu turquoise et vallées verdoyantes, Moorea regorge de
-            paysages à couper le souffle qui ne demandent qu’à être découvert
-            lors de votre séjour.
-            <br /> En mer ou sur terre, Lagoon Lodge saura répondre à vos
-            attentes.
-          </p>
-        </div>
-        <div className="col-md-6 order-md-1">
-          <img
-            style={{ height: '600px' }}
-            className="img-fluid w-100"
-            src="https://adventuredivers-spain.com/wp-content/uploads/2018/06/jetski.png "
-          />{' '}
-        </div>
+        <hr className="featurette-divider" />
+
         {/* EVENTS */}
 
         <hr className="featurette-divider" />
