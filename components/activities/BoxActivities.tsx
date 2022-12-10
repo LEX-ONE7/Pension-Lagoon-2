@@ -1,11 +1,12 @@
 import * as React from 'react';
+import { Parallax } from 'swiper';
 import SliderAuto from '../SliderAuto';
 const BoxActivities = () => (
     <div className="row  justify-content-start">
       <div className="col-12 bg-white">
         <div className="d-flex ">
 
-           
+           <Parallax/>
 
           <div className="text-light bg-info px-3  text-center overflow-auto">
 
