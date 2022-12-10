@@ -5,7 +5,7 @@ const BoxActivities = () => (
   <div className="row  justify-content-start">
     <div className="col-12 bg-white">
       <div className="d-flex ">
-        <div className="text-light bg-info px-3  text-center overflow-auto">
+        <div className="text-light px-3  text-center overflow-auto">
           {/* Activités */}
           <div className="py-4">
             <h2 className="display-6">Activités</h2>
