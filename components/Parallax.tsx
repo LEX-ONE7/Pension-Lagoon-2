@@ -2,7 +2,10 @@ import * as React from 'react';
 import { Parallax } from 'react-parallax';
 
 const ImageOne = () => (
-  <Parallax bgImage={`url("https://via.placeholder.com/500")`} strength={500}>
+  <Parallax
+    bgImage={`url("{https://images.unsplash.com/photo-1532408840957-031d8034aeef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80}")`}
+    strength={500}
+  >
     <div className="content">
       <span className="img-txt">A trip for space</span>
     </div>
