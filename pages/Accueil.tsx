@@ -12,7 +12,7 @@ const Accueil = () => {
           />
 
           <h2 className="fw-normal mt-4">Séjour Edénique</h2>
-          <p>
+          <p className="fs-4">
             Ambiance « full lagon », optez pour l'un de nos Bungalows sur
             pilotis à fond de verre, permettant d’admirer la faune et la flore
             pendant les soins.
@@ -30,7 +30,7 @@ const Accueil = () => {
             className="rounded-circle"
           />
           <h2 className="fw-normal mt-4">Spécialités Locales</h2>
-          <p>
+          <p className="fs-4">
             Des menus comprenant divers poissons frais, des spécialités
             tahitiennes à base de produits frais locaux.
           </p>
@@ -49,7 +49,7 @@ const Accueil = () => {
           />
 
           <h2 className="fw-normal mt-4 ">Sortie Baleine</h2>
-          <p>
+          <p className="fs-4">
             Venez à la rencontre des baleines et de leurs baleineaux dans le
             plus grand respect des animaux.
           </p>
@@ -92,7 +92,7 @@ const Accueil = () => {
           />{' '}
         </div>
         {/* ACTS*/}
-        <hr className="featurette-divider" />
+        <hr className="mt-3" />
 
         <div className="row featurette">
           <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
@@ -121,11 +121,9 @@ const Accueil = () => {
           </div>
         </div>
 
-        <hr className="featurette-divider" />
+        <hr className="mt-3" />
 
         {/* EVENTS */}
-
-        <hr className="featurette-divider" />
 
         <div className="row featurette pb-5">
           <div className="col-md-6 d-flex flex-column justify-content-center  ">
