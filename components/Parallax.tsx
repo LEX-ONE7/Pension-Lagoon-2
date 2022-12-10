@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { render } from 'react-dom';
 import { Parallax, Background } from 'react-parallax';
 const styles = {
   fontFamily: 'sans-serif',
@@ -12,7 +13,7 @@ const insideStyles = {
   left: "50%",
   transform: "translate(-50%,-50%)"
 };
-const Parallax = () => (
+const App = () => (
   <div style={styles}>
     <Parallax bgImage="image1" strength="500">
       <div style={{ height: 500 }}>
@@ -21,4 +22,5 @@ const Parallax = () => (
     </Parallax>
   </div>
 );
+render(<App />, document.getElementById("root"));
 
