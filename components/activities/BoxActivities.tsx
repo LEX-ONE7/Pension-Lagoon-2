@@ -3,7 +3,7 @@ import  Parallax  from '../Parallax';
 import SliderAuto from '../SliderAuto';
 const BoxActivities = () => (
   <div className="row  justify-content-start">
-    <div className="col-12 bg-white">
+    <div className="col-12">
       <div className="d-flex ">
         <div className="text-light px-3  text-center overflow-auto">
           {/* Activités */}
