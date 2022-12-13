@@ -2,7 +2,7 @@ import * as React from 'react';
 import SliderAuto from '../SliderAuto';
 const BoxEvents = () => (
   <div className="row">
-    <div className="fs-4 ">
+    <div className="content fs-4 ">
       <div className="card rounded-3 img-text ">
         <img
           src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
@@ -27,7 +27,9 @@ const BoxEvents = () => (
 
     <div className="row featurette ">
       <div className="col-md-6 d-flex flex-column  justify-content-center  ">
-        <h2 className="featurette-heading  fw-normal  text-secondary ">Mariages</h2>
+        <h2 className="featurette-heading  fw-normal  text-secondary ">
+          Mariages
+        </h2>
 
         <p className="lead">
           Notre équipe vous organise des évènements mémorables, du dîner
