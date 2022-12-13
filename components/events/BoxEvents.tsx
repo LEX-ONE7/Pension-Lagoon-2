@@ -21,7 +21,7 @@ const BoxEvents = () => (
               Mariages
             </h2>
 
-            <p className="lead">
+            <p className="lead fs-4">
               Notre équipe vous organise des évènements mémorables, du dîner
               romantique au mariage tahitien traditionnel. Entre cadeaux,
               surprises et privilèges, vivez des moments à deux exceptionnels et
@@ -35,21 +35,25 @@ const BoxEvents = () => (
         {/* HoneyMoon */}
         <hr className="featurette-divider" />
 
-        <div className="row featurette ">
-          <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
+        <div className="row featurette">
+          <div className=" d-flex  justify-content-center ">
             <SliderAuto collection="honeymoon" />
-            <h2 className="featurette-heading fw-normal lh-1 text-secondary col-md-6">
-              Lune de Miel
-              <hr className="text-primary" />
-              <p className="text-info"> Vivez une expérience inoubliable !</p>
-              <hr className="text-primary" />
-            </h2>
+            <div className="col-md-6  d-flex flex-column flex-nowrap justify-content-space-between  ">
+              <h2 className=" featurette-heading fw-normal lh-1 text-secondary">
+                Lune de Miel
+                <hr className="text-primary" />
+                <p className="text-info"> Vivez une expérience inoubliable !</p>
+                <hr className="text-primary" />
+              </h2>
 
-            <p className="lead fs-4">
-              La Polynésie est l’une des plus belles destinations au monde pour
-              fêter ce grand moment à deux ! Nos offres incluent de nombreux
-              cadeaux et surprises qui vous laisseront un souvenir impérissable.
-            </p>
+              <p className="lead fs-4">
+                La Polynésie est l’une des plus belles destinations au monde
+                <br />
+                pour fêter ce grand moment à deux ! <br />
+                Nos offres incluent de nombreux cadeaux et surprises qui vous
+                laisseront un souvenir impérissable.
+              </p>
+            </div>
           </div>
         </div>
       </div>
