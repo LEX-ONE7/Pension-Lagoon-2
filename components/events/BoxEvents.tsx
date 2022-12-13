@@ -19,7 +19,6 @@ const BoxEvents = () => (
             tête sous les étoiles, et une multitude de paysages féériques pour
             des cérémonies somptueuses ou intimes selon vos envies.
           </p>
-
         </div>
       </div>
     </div>
@@ -51,21 +50,22 @@ const BoxEvents = () => (
           <p className="text-info"> Sublimez votre expérience !</p>
           <hr className="text-primary" />
         </h2>
-        <p className="lead ">
+        <p className="lead fs-4">
           La Polynésie est l’une des plus belles destinations au monde pour
           fêter ce grand moment à deux, rien que tous les deux ! Nos offres
           incluent de nombreux cadeaux et surprises qui vous laisseront un
           souvenir impérissable.
         </p>
       </div>
-    <div className="row featurette">
+      <div className="row featurette">
+        <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
+          <h2 className="featurette-heading fw-normal lh-1 text-secondary">
+            Anniversaires
+          </h2>
 
-      <div className="col-md-6">
-      <h3> Anniversaires</h3>
-
-        <SliderAuto collection="mariage" />
-      </div>
-        <p>
+          <SliderAuto collection="mariage" />
+        </div>
+        <p className="lead fs-4">
           Fini les salles de fête basiques ou les partys d’anniversaire
           organisés à l’improviste à la maison… Cette année, vous avez décidé de
           mettre le paquet et vous avez amplement raison ! Plusieurs idées
