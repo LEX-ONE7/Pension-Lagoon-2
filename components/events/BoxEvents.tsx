@@ -14,16 +14,16 @@ const BoxEvents = () => (
         {/* 3 Events*/}
         <hr className="featurette-divider" />
         <div className="row featurette ">
-          <div className="col-md-6 d-flex flex-column  justify-content-center  ">
+          <div className="col-md-6 d-flex flex-column  justify-content-center px-4">
             <h2 className="featurette-heading  fw-normal  text-secondary ">
               Mariages
             </h2>
 
             <p className="lead fs-4">
-              Notre équipe vous organise des évènements mémorables, du dîner
-              romantique au mariage tahitien traditionnel. Entre cadeaux,
-              surprises et privilèges, vivez des moments à deux exceptionnels et
-              inoubliables.
+              Notre équipe vous organise des évènements mémorables,
+              <br /> du dîner romantique au mariage tahitien traditionnel.
+              <br /> Entre cadeaux, surprises et privilèges, vivez des moments à
+              deux exceptionnels et inoubliables.
             </p>
           </div>
           <div className="col-md-6">
@@ -35,7 +35,7 @@ const BoxEvents = () => (
         <div className="row featurette">
           <div className=" d-flex   ">
             <SliderAuto collection="honeymoon" />
-            <div className="col-md-6  d-flex flex-column justify-content-center mx-5  ">
+            <div className="col-md-6  d-flex flex-column justify-content-center px-4  ">
               <h2 className=" featurette-heading fw-normal lh-1 text-secondary">
                 Lune de Miel
                 <hr className="text-primary" />
@@ -56,7 +56,7 @@ const BoxEvents = () => (
           {/* HB */}
           <hr className="featurette-divider" />
           <div className="row featurette ">
-            <div className="col-md-6  d-flex flex-column justify-content-center ">
+            <div className="col-md-6  d-flex flex-column justify-content-center px-4">
               <h2 className="featurette-heading fw-normal  text-secondary">
                 Anniversaires
               </h2>
@@ -69,7 +69,7 @@ const BoxEvents = () => (
               Unique et inoubliable
             </p>
           </div>
-          <div className="d-flex col-md-6">
+          <div className="col-md-6">
             <SliderAuto collection="anniversaire" />
           </div>
         </div>
