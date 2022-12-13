@@ -27,7 +27,7 @@ const BoxEvents = () => (
 
     <div className="row featurette ">
       <div className="col-md-6 d-flex flex-column  justify-content-center  ">
-        <h2 className="featurette-heading  fw-normal  ">Mariages</h2>
+        <h2 className="featurette-heading  fw-normal  text-secondary ">Mariages</h2>
 
         <p className="lead">
           Notre équipe vous organise des évènements mémorables, du dîner
@@ -44,7 +44,7 @@ const BoxEvents = () => (
 
     <div className="row featurette">
       <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
-        <h2 className="featurette-heading fw-normal lh-1 text-secondary">
+        <h2 className="featurette-heading fw-normal  text-secondary">
           Lune de Miel
           <hr className="text-primary" />
           <p className="text-info"> Vivez une expérience inoubliable !</p>
@@ -61,7 +61,7 @@ const BoxEvents = () => (
 
       <div className="row featurette">
         <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
-          <h2 className="featurette-heading fw-normal lh-1 text-secondary">
+          <h2 className="featurette-heading fw-normal  text-secondary">
             Anniversaires
           </h2>
 
