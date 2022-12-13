@@ -62,7 +62,7 @@ const BoxEvents = () => (
             Anniversaires
           </h2>
 
-          <SliderAuto collection="mariage" />
+          <SliderAuto collection="anniversaire"/>
         </div>
         <p className="lead fs-4">
           Fini les salles de fête basiques ou les partys d’anniversaire
