@@ -43,14 +43,13 @@ const BoxEvents = () => (
               <p className="text-info"> Vivez une expérience inoubliable !</p>
               <hr className="text-primary" />
             </h2>
+            <SliderAuto className="col-md-6" collection="honeymoon" />
+
             <p className="lead fs-4">
               La Polynésie est l’une des plus belles destinations au monde pour
               fêter ce grand moment à deux ! Nos offres incluent de nombreux
               cadeaux et surprises qui vous laisseront un souvenir impérissable.
             </p>
-            <div className="col-md-6 order-md-1">
-              <SliderAuto collection="honeymoon" />
-            </div>
           </div>
         </div>
       </div>
