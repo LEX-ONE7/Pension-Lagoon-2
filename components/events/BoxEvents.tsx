@@ -55,14 +55,17 @@ const BoxEvents = () => (
           fêter ce grand moment à deux ! Nos offres incluent de nombreux cadeaux
           et surprises qui vous laisseront un souvenir impérissable.
         </p>
+        <SliderAuto collection="honeymoon" />
       </div>
+      {/* HB */}
+
       <div className="row featurette">
         <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
           <h2 className="featurette-heading fw-normal lh-1 text-secondary">
             Anniversaires
           </h2>
 
-          <SliderAuto collection="anniversaire"/>
+          <SliderAuto collection="anniversaire" />
         </div>
         <p className="lead fs-4">
           Fini les salles de fête basiques ou les partys d’anniversaire
