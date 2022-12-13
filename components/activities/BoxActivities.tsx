@@ -22,7 +22,7 @@ const BoxActivities = () => (
           > 
           <Para/>
           </div>
-          <div className="col-12 d-md-flex ">
+          <div className=" col-12 d-md-flex ">
             <div
               className=" pt-md-5  text-center overflow-auto"
               style={{
