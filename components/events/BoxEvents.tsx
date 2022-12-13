@@ -13,6 +13,7 @@ const BoxEvents = () => (
         </div>
 
         {/* 3 Events*/}
+        <hr className="featurette-divider" />
 
         <div className="row featurette ">
           <div className="col-md-6 d-flex flex-column  justify-content-center  ">
