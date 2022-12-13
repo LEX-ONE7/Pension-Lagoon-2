@@ -11,10 +11,8 @@ const BoxEvents = () => (
         <div className="card-img-overlay">
           <h3 className="card-title"> Évènements </h3>
         </div>
-
         {/* 3 Events*/}
         <hr className="featurette-divider" />
-
         <div className="row featurette ">
           <div className="col-md-6 d-flex flex-column  justify-content-center  ">
             <h2 className="featurette-heading  fw-normal  text-secondary ">
@@ -34,11 +32,10 @@ const BoxEvents = () => (
         </div>
         {/* HoneyMoon */}
         <hr className="featurette-divider" />
-
         <div className="row featurette">
-          <div className=" d-flex  justify-content-center ">
+          <div className=" d-flex   ">
             <SliderAuto collection="honeymoon" />
-            <div className="col-md-6  d-flex flex-column flex-nowrap justify-content-space-between  ">
+            <div className="col-md-6  d-flex flex-column justify-content-center mx-5  ">
               <h2 className=" featurette-heading fw-normal lh-1 text-secondary">
                 Lune de Miel
                 <hr className="text-primary" />
@@ -55,28 +52,29 @@ const BoxEvents = () => (
               </p>
             </div>
           </div>
+
+          {/* HB */}
+          <hr className="featurette-divider" />
+          <div className="row featurette ">
+            <div className="col-md-6  d-flex flex-column justify-content-center ">
+              <h2 className="featurette-heading fw-normal  text-secondary">
+                Anniversaires
+              </h2>
+            </div>
+            <p className="lead fs-4">
+              Fini les salles de fête basiques,les partys d’anniversaire
+              organisés à l’improviste à la maison.
+              <br /> Cette année, vous avez décidé de mettre le paquet!
+              <br />
+              Unique et inoubliable
+            </p>
+          </div>
+          <div className="d-flex col-md-6">
+            <SliderAuto collection="anniversaire" />
+          </div>
         </div>
       </div>
     </div>
   </div>
 );
 export default BoxEvents;
-
-{
-  /* HB */
-}
-<div className="row featurette">
-  <div className="col-md-6  d-flex flex-column justify-content-center ">
-    <h2 className="featurette-heading fw-normal  text-secondary">
-      Anniversaires
-    </h2>
-
-    <SliderAuto collection="anniversaire" />
-  </div>
-  <p className="lead fs-4">
-    Fini les salles de fête basiques ou les partys d’anniversaire organisés à
-    l’improviste à la maison… Cette année, vous avez décidé de mettre le paquet
-    et vous avez amplement raison ! Plusieurs idées peuvent être considérées
-    pour faire de votre fête d’anniversaire un événement unique et inoubliable
-  </p>
-</div>;
