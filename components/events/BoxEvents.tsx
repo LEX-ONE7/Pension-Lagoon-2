@@ -58,11 +58,13 @@ const BoxEvents = () => (
           souvenir impérissable.
         </p>
       </div>
+    <div className="row featurette">
+
       <div className="col-md-6">
-        <SliderAuto collection="honeymoon" />
+      <h3> Anniversaires</h3>
+
+        <SliderAuto collection="mariage" />
       </div>
-      <div className="bg-danger">
-        <h3> Anniversaires</h3>
         <p>
           Fini les salles de fête basiques ou les partys d’anniversaire
           organisés à l’improviste à la maison… Cette année, vous avez décidé de
