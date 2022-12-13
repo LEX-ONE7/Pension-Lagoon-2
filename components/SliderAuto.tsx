@@ -48,6 +48,7 @@ export default function SliderAuto({ collection }) {
               height: '40rem',
               objectFit: 'cover',
               objectPosition: 'top',
+              width: '100%',
               
             }}
           />
