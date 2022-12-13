@@ -1,61 +1,68 @@
 import * as React from 'react';
 import SliderAuto from '../SliderAuto';
 const BoxEvents = () => (
-  <div className="row">
-    <div className="card rounded-5  ">
-      <img
-        src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
-        className="card-img"
-      />
-      <div className="card-img-overlay">
-        <h3 className="card-title"> Évènements </h3>
-      </div>
-
-      {/* 3 Events*/}
-
-      <div className="row featurette ">
-        <div className="col-md-6 d-flex flex-column  justify-content-center  ">
-          <h2 className="featurette-heading  fw-normal  text-secondary ">
-            Mariages
-          </h2>
-
-          <p className="lead">
-            Notre équipe vous organise des évènements mémorables, du dîner
-            romantique au mariage tahitien traditionnel. Entre cadeaux,
-            surprises et privilèges, vivez des moments à deux exceptionnels et
-            inoubliables.
-          </p>
+  <div className="container-fluid">
+    <div className="row col-12">
+      <div className="card rounded-5  ">
+        <img
+          src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
+          className="card-img"
+        />
+        <div className="card-img-overlay">
+          <h3 className="card-title"> Évènements </h3>
         </div>
-        <div className="col-md-6">
-          <SliderAuto collection="mariage" />
-        </div>
-      </div>
-      {/* HoneyMoon */}
-      <hr className="featurette-divider" />
 
-      <div className="row featurette">
-        <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
-          <h2 className="featurette-heading fw-normal  text-secondary">
-            Lune de Miel
-            <hr className="text-primary" />
-            <p className="text-info"> Vivez une expérience inoubliable !</p>
-            <hr className="text-primary" />
-          </h2>
-          <p className="lead fs-4">
-            La Polynésie est l’une des plus belles destinations au monde pour
-            fêter ce grand moment à deux ! Nos offres incluent de nombreux
-            cadeaux et surprises qui vous laisseront un souvenir impérissable.
-          </p>
-          <SliderAuto collection="honeymoon" />
+        {/* 3 Events*/}
+
+        <div className="row featurette ">
+          <div className="col-md-6 d-flex flex-column  justify-content-center  ">
+            <h2 className="featurette-heading  fw-normal  text-secondary ">
+              Mariages
+            </h2>
+
+            <p className="lead">
+              Notre équipe vous organise des évènements mémorables, du dîner
+              romantique au mariage tahitien traditionnel. Entre cadeaux,
+              surprises et privilèges, vivez des moments à deux exceptionnels et
+              inoubliables.
+            </p>
+          </div>
+          <div className="col-md-6">
+            <SliderAuto collection="mariage" />
+          </div>
         </div>
-        {/* HB */}
+        {/* HoneyMoon */}
+        <hr className="featurette-divider" />
+
+        <div className="row featurette">
+          <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
+            <h2 className="featurette-heading fw-normal lh-1 text-secondary">
+              Lune de Miel
+              <hr className="text-primary" />
+              <p className="text-info"> Vivez une expérience inoubliable !</p>
+              <hr className="text-primary" />
+            </h2>
+            <p className="lead fs-4">
+              La Polynésie est l’une des plus belles destinations au monde pour
+              fêter ce grand moment à deux ! Nos offres incluent de nombreux
+              cadeaux et surprises qui vous laisseront un souvenir impérissable.
+            </p>
+            <div className="col-md-6 order-md-1">
+              <SliderAuto collection="honeymoon" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 );
 export default BoxEvents;
+
+{
+  /* HB */
+}
 <div className="row featurette">
-  <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
+  <div className="col-md-6  d-flex flex-column justify-content-center ">
     <h2 className="featurette-heading fw-normal  text-secondary">
       Anniversaires
     </h2>
