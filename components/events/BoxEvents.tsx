@@ -9,14 +9,24 @@ const BoxEvents = () => (
           className="card-img"
         />
         <div className="card-img-overlay">
-          <h3 className="card-title text-center fs-3 align-content-center"> Évènements </h3>
+          <h3 className="card-title text-center fs-3 fw-bold align-content-center">
+            {' '}
+            Évènements{' '}
+          </h3>
+          <p className="text-dark lead fs-4">
+            {' '}
+            Vivez une expérience inoubliable !
+          </p>
         </div>
         {/* 3 Events*/}
+
         <hr className="featurette-divider" />
         <div className="row featurette ">
           <div className="col-md-6 d-flex flex-column  justify-content-center px-4">
             <h2 className="featurette-heading  fw-normal  text-secondary ">
+              <hr className="text-primary" />
               Mariages
+              <hr className="text-primary" />
             </h2>
 
             <p className="lead fs-4">
@@ -30,16 +40,17 @@ const BoxEvents = () => (
             <SliderAuto collection="mariage" />
           </div>
         </div>
+
         {/* HoneyMoon */}
+
         <hr className="featurette-divider" />
         <div className="row featurette">
-          <div className=" d-flex   ">
+          <div className=" d-flex">
             <SliderAuto collection="honeymoon" />
             <div className="col-md-6  d-flex flex-column justify-content-center px-4  ">
               <h2 className=" featurette-heading fw-normal lh-1 text-secondary">
-                Lune de Miel
                 <hr className="text-primary" />
-                <p className="text-info"> Vivez une expérience inoubliable !</p>
+                Lune de Miel
                 <hr className="text-primary" />
               </h2>
 
@@ -54,23 +65,26 @@ const BoxEvents = () => (
           </div>
 
           {/* HB */}
-          <hr className="featurette-divider" />
+
+          <hr className="featurette-divider mt-3" />
           <div className="row featurette ">
             <div className="col-md-6  d-flex flex-column justify-content-center px-4">
               <h2 className="featurette-heading fw-normal  text-secondary">
+                <hr className="text-primary" />
                 Anniversaires
+                <hr className="text-primary" />
               </h2>
+              <p className="lead fs-4">
+                Fini les salles de fête basiques,les partys d’anniversaire
+                organisés à l’improviste à la maison.
+                <br /> Cette année, vous avez décidé de mettre le paquet!
+                <br />
+                Unique et inoubliable
+              </p>
             </div>
-            <p className="lead fs-4">
-              Fini les salles de fête basiques,les partys d’anniversaire
-              organisés à l’improviste à la maison.
-              <br /> Cette année, vous avez décidé de mettre le paquet!
-              <br />
-              Unique et inoubliable
-            </p>
-          </div>
-          <div className="col-md-6">
-            <SliderAuto collection="anniversaire" />
+            <div className="col-md-6 mb-3 ">
+              <SliderAuto collection="anniversaire" />
+            </div>
           </div>
         </div>
       </div>
