@@ -7,13 +7,17 @@ const Contact = () => {
     <div>
       <Navbar />
 
-      <div className="container text-center">
+      <div className="container-fluid text-center">
         <div className="row">
-          <div className="col bg-info">1 of 2</div>
-          <div className="col bg-dark">2 of 2</div>
+          <div className="col-lg-6 bg-info">
+            <h2></h2>
+          </div>
+          <div className="col-lg-6 bg-dark text-light text-center">
+            <h2>Nous Contacter</h2>
+          </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 };
