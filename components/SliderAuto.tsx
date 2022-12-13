@@ -49,7 +49,6 @@ export default function SliderAuto({ collection }) {
               objectFit: 'cover',
               objectPosition: 'top',
               width: '100%',
-              
             }}
           />
         </SwiperSlide>
