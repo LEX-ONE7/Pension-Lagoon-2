@@ -47,14 +47,13 @@ const BoxEvents = () => (
         <h2 className="featurette-heading fw-normal lh-1 text-secondary">
           Lune de Miel
           <hr className="text-primary" />
-          <p className="text-info"> Sublimez votre expérience !</p>
+          <p className="text-info"> Vivez une expérience inoubliable !</p>
           <hr className="text-primary" />
         </h2>
         <p className="lead fs-4">
           La Polynésie est l’une des plus belles destinations au monde pour
-          fêter ce grand moment à deux, rien que tous les deux ! Nos offres
-          incluent de nombreux cadeaux et surprises qui vous laisseront un
-          souvenir impérissable.
+          fêter ce grand moment à deux ! Nos offres incluent de nombreux cadeaux
+          et surprises qui vous laisseront un souvenir impérissable.
         </p>
       </div>
       <div className="row featurette">
