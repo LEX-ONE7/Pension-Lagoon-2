@@ -35,7 +35,7 @@ const BoxEvents = () => (
         {/* HoneyMoon */}
         <hr className="featurette-divider" />
 
-        <div className="row featurette">
+        <div className="row featurette ">
           <div className="col-md-6 order-md-2 d-flex flex-column justify-content-center ">
             <h2 className="featurette-heading fw-normal lh-1 text-secondary">
               Lune de Miel
@@ -43,13 +43,16 @@ const BoxEvents = () => (
               <p className="text-info"> Vivez une expérience inoubliable !</p>
               <hr className="text-primary" />
             </h2>
-            <SliderAuto className="col-md-6" collection="honeymoon" />
+
+
 
             <p className="lead fs-4">
               La Polynésie est l’une des plus belles destinations au monde pour
               fêter ce grand moment à deux ! Nos offres incluent de nombreux
               cadeaux et surprises qui vous laisseront un souvenir impérissable.
             </p>
+            <SliderAuto  collection="honeymoon" />
+
           </div>
         </div>
       </div>
