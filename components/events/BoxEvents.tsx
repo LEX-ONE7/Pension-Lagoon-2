@@ -8,12 +8,12 @@ const BoxEvents = () => (
           src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
           className="card-img"
         />
-        <div className="card-img-overlay">
+        <div className="card-img-overlay pt-5">
           <h3 className="card-title text-center fs-3 fw-bold align-content-center">
             {' '}
             Évènements{' '}
           </h3>
-          <p className="text-dark lead fs-4">
+          <p className="text-dark lead fs-4 text-center">
             {' '}
             Vivez une expérience inoubliable !
           </p>
@@ -75,11 +75,9 @@ const BoxEvents = () => (
                 <hr className="text-primary" />
               </h2>
               <p className="lead fs-4">
-                Fini les salles de fête basiques,les partys d’anniversaire
-                organisés à l’improviste à la maison.
-                <br /> Cette année, vous avez décidé de mettre le paquet!
+                Cette année, mettez le paquet!
                 <br />
-                Unique et inoubliable
+                Rendez votre fête unique et inoubliable
               </p>
             </div>
             <div className="col-md-6 mb-3 ">
