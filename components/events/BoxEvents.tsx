@@ -9,7 +9,7 @@ const BoxEvents = () => (
           className="card-img"
         />
         <div className="card-img-overlay">
-          <h3 className="card-title"> Évènements </h3>
+          <h3 className="card-title text-center fs-3 align-content-center"> Évènements </h3>
         </div>
         {/* 3 Events*/}
         <hr className="featurette-divider" />
