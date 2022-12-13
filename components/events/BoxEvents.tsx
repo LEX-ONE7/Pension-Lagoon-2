@@ -3,24 +3,14 @@ import SliderAuto from '../SliderAuto';
 const BoxEvents = () => (
   <div className="row">
     <div className="card rounded-5  ">
-      <div className=" fs-7 ">
         <img
           src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
           className="card-img"
         />
         <div className="card-img-overlay">
           <h3 className="card-title"> Évènements </h3>
-          <p className="card-text">
-            Tahiti est l'endroit rêvé pour une escapade romantique dans les
-            îles. Des plages aux allures de carte postale, des eaux turquoises
-            scintillantes, des récifs de corail et des jungles verdoyantes en
-            font une destination hors pair. Notre archipel offre des lieux
-            insolites pour célébrer un mariage ou pour un rendez-vous en tête à
-            tête sous les étoiles, et une multitude de paysages féériques pour
-            des cérémonies somptueuses ou intimes selon vos envies.
-          </p>
-        </div>
-      </div>
+        
+         
     </div>
 
     {/* 3 Events*/}
@@ -79,5 +69,7 @@ const BoxEvents = () => (
       </div>
     </div>
   </div>
+  </div>
+
 );
 export default BoxEvents;
