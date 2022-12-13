@@ -2,8 +2,8 @@ import * as React from 'react';
 import SliderAuto from '../SliderAuto';
 const BoxEvents = () => (
   <div className="row">
-    <div className="content fs-4 ">
-      <div className="card rounded-3 img-text ">
+    <div className="card rounded-5  ">
+      <div className=" fs-7 ">
         <img
           src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
           className="card-img"
