@@ -24,6 +24,23 @@ const BoxRestaurant = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
+              <ul className="detailViewWrapper-menu">
+                <li className="active">
+                  <a href="#overview">Overview</a>
+                </li>
+                <li>
+                  <a href="#amenities">Amenities</a>
+                </li>
+                <li>
+                  <a href="#gallery" id="galleryTab">
+                    Gallery
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#location">Location</a>
+                </li>
+              </ul>{' '}
               <h2>Heading</h2>
               <p>
                 Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
