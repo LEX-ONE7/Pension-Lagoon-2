@@ -4,7 +4,7 @@ const Footer = () => {
     <div id="footer" className="text-white text-center text-lg-start">
       <div className="container p-4">
         <div className="row">
-          <div className="col-lg-6 mb-4 ">
+          <div className="col-md-6 mb-4 ">
             <h5 className="text-uppercase">Avis Clients</h5>
 
             <div
