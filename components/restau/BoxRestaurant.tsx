@@ -31,10 +31,10 @@ const BoxRestaurant = () => {
               />
               <div className="card-img-text">
                 <h3 className="card-title text-center fs-3 fw-bold align-content-center">
-                  Évènements
                 </h3>
                 <p className="text-dark lead fs-4 text-center">
-                  Vivez une expérience inoubliable !
+                1000fr / Jour 
+
                 </p>
               </div>
               <a className="btn btn-secondary" href="" role="button">
