@@ -1,26 +1,13 @@
 import * as React from 'react';
-import Parallax2 from '../Parallax2';
 import SliderAuto from '../SliderAuto';
 const BoxActivities = () => (
   <div className="row  justify-content-start">
-    <div className="col-12">
+    <div className="container-fluid">
       <div className="d-flex ">
         <div className="text-light px-3 bg-info text-center overflow-auto">
           {/* Activités */}
-          <div className="py-4">
-            <h2 className="display-6">Activités</h2>
-            <p className="lead">Sublimez Votre Expérience.</p>
-          </div>
-          <div
-            className="bg-light"
-            style={{
-              width: '100%',
-              height: '400px',
-              bordeRadius: '21px 21px 0 0 ',
-            }}
-          >
-            <Parallax2 />
-          </div>
+
+
           <div className=" col-12 d-md-flex ">
             <div
               className=" pt-md-5  text-center overflow-auto"

@@ -8,6 +8,8 @@ const Parallax2 = () => (
     <div className="content">
       <span className="img-txt display-1 fw-bold  text-light text-center">
         Activités
+        <p className="lead fs-3 py-4">Sublimez Votre Expérience</p>
+
       </span>
     </div>
   </Parallax>
