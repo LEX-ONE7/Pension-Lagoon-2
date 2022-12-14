@@ -23,7 +23,7 @@ const BoxRestaurant = () => {
 
         <div className="container">
           <div className="row p-2">
-            <div className="col-md-4 text-center ">
+            <div className="col-md-4 text-center card rounded-5">
               <h2>Petit Dejeuner</h2>
               <img
                 src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
