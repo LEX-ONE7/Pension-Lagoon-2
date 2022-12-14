@@ -23,19 +23,17 @@ const BoxRestaurant = () => {
 
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
-              <h2>Heading</h2>
+            <div className="col-md-4 text-center card rounded-5">
+              <h2>Petit Dejeuner</h2>
               <img
                 src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
                 className="card-img"
               />
-              <div className="card-img-overlay pt-5">
+              <div className="card-img-text">
                 <h3 className="card-title text-center fs-3 fw-bold align-content-center">
-                  {' '}
-                  Évènements{' '}
+                  Évènements
                 </h3>
                 <p className="text-dark lead fs-4 text-center">
-                  {' '}
                   Vivez une expérience inoubliable !
                 </p>
               </div>
