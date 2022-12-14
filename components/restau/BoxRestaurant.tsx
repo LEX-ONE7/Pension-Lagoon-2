@@ -22,7 +22,7 @@ const BoxRestaurant = () => {
 
               <button
                 type="button"
-                className="w-100 btn btn-lg btn-info btn-lg rounded-3 btn-outline-light"
+                className="w-100 btn btn-lg btn-info btn-lg rounded-3 btn-outline-light rounded-4 mb-2"
               >
                 Réserver une table
               </button>
@@ -42,7 +42,7 @@ const BoxRestaurant = () => {
 
               <button
                 type="button"
-                className="w-100 btn btn-lg btn-info btn-lg rounded-3 btn-outline-light"
+                className="w-100 btn btn-lg btn-info btn-lg rounded-3 btn-outline-light rounded-4 mb-2"
               >
                 Réserver une table
               </button>
@@ -62,7 +62,7 @@ const BoxRestaurant = () => {
 
               <button
                 type="button"
-                className="w-100 btn btn-lg btn-info btn-lg rounded-3 btn-outline-light"
+                className="w-100 btn btn-lg btn-info btn-lg rounded-3 btn-outline-light rounded-4 mb-2"
               >
                 Réserver une table
               </button>
