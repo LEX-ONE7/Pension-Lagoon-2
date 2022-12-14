@@ -7,14 +7,12 @@ const BoxActivities = () => (
         <div className="text-light px-3 bg-info text-center overflow-auto">
           {/* Activités */}
 
-
           <div className=" col-12 d-md-flex ">
             <div
               className=" pt-md-5  text-center overflow-auto"
               style={{
-                background: 'rgb(7,108,215)',
                 background:
-                  'linear-gradient(90deg, rgba(7,108,215,1) 0%, rgba(7,155,215,1) 36%, rgba(7,162,215,1) 65%, rgba(7,64,215,1) 100%)',
+                  'linear-gradient(90deg, rgba(7,108,215,1) 0%, rgba(7,155,215,1) 36%, rgba(7,162,215,1) 65%, rgba(7,64,215,1) 100%),rgb(7,108,215)',
               }}
             >
               <div className="px-3">
@@ -32,7 +30,7 @@ const BoxActivities = () => (
                 style={{
                   width: '100%',
                   height: '400px',
-                  bordeRadius: '21px 21px 0 0 ',
+                  borderRadius: '21px 21px 0 0 ',
                 }}
               >
                 <SliderAuto collection="LocationMarine" />
@@ -41,9 +39,8 @@ const BoxActivities = () => (
             <div
               className=" pt-md-5 overflow-auto"
               style={{
-                background: 'rgb(17,86,4)',
                 background:
-                  'linear-gradient(90deg, rgba(17,86,4,1) 0%, rgba(77,209,48,1) 41%, rgba(68,188,38,1) 67%, rgba(21,68,8,1) 100%)',
+                  'linear-gradient(90deg, rgba(17,86,4,1) 0%, rgba(77,209,48,1) 41%, rgba(68,188,38,1) 67%, rgba(21,68,8,1) 100%),rgb(17,86,4)',
               }}
             >
               <div className="  px-3 ">
