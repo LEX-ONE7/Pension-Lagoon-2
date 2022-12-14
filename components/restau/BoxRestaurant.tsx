@@ -4,7 +4,6 @@ const BoxRestaurant = () => {
     <div className="container-fluid">
       <div className="row">
         {/* Activités */}
-        
 
         <div className="container">
           <div className="row p-2">
@@ -35,7 +34,7 @@ const BoxRestaurant = () => {
                 className="card-img"
               />
               <div className="card-header py-3 bg-info text-light">
-                <h4 className=" fw-normal"> Petit Déjeuner</h4>
+                <h4 className=" fw-normal"> Demi Pension</h4>
               </div>
               <p className="text-dark lead fs-4 text-center mt-2">
                 2500 fr<small className="text-muted fw-light">/Jour</small>
