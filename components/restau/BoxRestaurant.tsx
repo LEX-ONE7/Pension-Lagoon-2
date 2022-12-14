@@ -24,35 +24,24 @@ const BoxRestaurant = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <ul className="detailViewWrapper-menu">
-                <li className="active">
-                  <a href="#overview">Overview</a>
-                </li>
-                <li>
-                  <a href="#amenities">Amenities</a>
-                </li>
-                <li>
-                  <a href="#gallery" id="galleryTab">
-                    Gallery
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#location">Location</a>
-                </li>
-              </ul>{' '}
               <h2>Heading</h2>
-              <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-                tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-                fermentum massa justo sit amet risus. Etiam porta sem malesuada
-                magna mollis euismod. Donec sed odio dui.{' '}
-              </p>
-              <p>
-                <a className="btn btn-secondary" href="#" role="button">
-                  View details &raquo;
-                </a>
-              </p>
+              <img
+                src="https://7.holiday/public/user_files/1/1/7_villas.jpg"
+                className="card-img"
+              />
+              <div className="card-img-overlay pt-5">
+                <h3 className="card-title text-center fs-3 fw-bold align-content-center">
+                  {' '}
+                  Évènements{' '}
+                </h3>
+                <p className="text-dark lead fs-4 text-center">
+                  {' '}
+                  Vivez une expérience inoubliable !
+                </p>
+              </div>
+              <a className="btn btn-secondary" href="#" role="button">
+                View details &raquo;
+              </a>
             </div>
             <div className="col-md-4">
               <h2>Heading</h2>
