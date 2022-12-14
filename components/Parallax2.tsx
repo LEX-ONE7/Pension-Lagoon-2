@@ -7,7 +7,7 @@ const Parallax2 = () => (
   <Parallax className="image" bgImage={image2} strength={600}>
     <div className="content">
       <span className="img-txt display-1 fw-bold  text-light text-center">
-        Bungalows & Chambres
+        Activités
       </span>
     </div>
   </Parallax>
