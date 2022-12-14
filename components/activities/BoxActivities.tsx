@@ -1,6 +1,5 @@
 import * as React from 'react';
-import Para from '../Parallax';
-import  Parallax  from '../Parallax';
+import Parallax2 from '../Parallax2';
 import SliderAuto from '../SliderAuto';
 const BoxActivities = () => (
   <div className="row  justify-content-start">
@@ -19,8 +18,8 @@ const BoxActivities = () => (
               height: '400px',
               bordeRadius: '21px 21px 0 0 ',
             }}
-          > 
-          <Para/>
+          >
+            <Parallax2 />
           </div>
           <div className=" col-12 d-md-flex ">
             <div

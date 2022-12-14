@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { Parallax } from 'react-parallax';
 const image2 =
-  'https://images.unsplash.com/photo-1532408840957-031d8034aeef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80';
-  
-const Para = () => (
+  'https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/07/30130009/water-1024x716.jpeg';
+
+const Parallax2 = () => (
   <Parallax className="image" bgImage={image2} strength={600}>
     <div className="content">
       <span className="img-txt display-1 fw-bold  text-light text-center">
@@ -12,4 +12,4 @@ const Para = () => (
     </div>
   </Parallax>
 );
-export default Para;
+export default Parallax2;
